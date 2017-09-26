@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>search</title>
+    <link href="css/framework7.ios.min.css" rel="stylesheet">
+    <link href="css/framework7.ios.colors.min.css" rel="stylesheet">
+    <link href="css/my-app.css" rel="stylesheet">
+</head>
+<body>
+<div class="views">
+    <!-- Your main view, should have "view-main" class -->
+    <div class="view view-main">
+        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+            <!-- Page, "data-page" contains page name -->
+            <div class="page no-navbar" data-page="search">
+                <!-- Search Bar -->
+                <form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init">
+                    <div class="searchbar-input">
+                        <input type="search" placeholder="Search"><a href="#" class="searchbar-clear"></a>
+                    </div><a href="#" class="searchbar-cancel">Cancel</a>
+                </form>
+
+                <!-- Search Bar overlay -->
+                <div class="searchbar-overlay"></div>
+
+                <div class="page-content">
+                    <!-- This block will be displayed if nothing found -->
+                    <div class="content-block searchbar-not-found">
+                        <div class="content-block-inner">Nothing found</div>
+                    </div>
+
+                    <!-- This block will be displayed if anything found, and this list block is used a searbar target -->
+                    <div class="list-block list-block-search searchbar-found">
+                        <ul>
+                            <li class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">Acura </div>
+                                </div>
+                            </li>
+                            <li class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">drtgn</div>
+                                </div>
+                            </li>
+                            <li class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">gkjm</div>
+                                </div>
+                            </li>
+                            <li class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">aswewr</div>
+                                </div>
+                            </li>
+                            <li class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">sfreg</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Toolbar-->
+        <div class="toolbar">
+            <div class="toolbar-inner">
+                <!-- Toolbar links -->
+                <a href="#" class="link">Link 1</a>
+                <a href="#" class="link">Link 2</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="js/framework7.min.js"></script>
+<script src="js/my-app.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>myMusic</title>
+    <link href="css/framework7.ios.min.css" rel="stylesheet">
+    <link href="css/framework7.ios.colors.min.css" rel="stylesheet">
+    <link href="css/my-app.css" rel="stylesheet">
+</head>
+<body>
+<div class="page" data-page="myMusic">
+    <div class="page-content">
+        <ul class="MusicList">
+            <li>
+                <span class="ListContent">本地音乐<span> (45)</span></span>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <span class="ListContent">最近播放<span> (32)</span></span>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <span class="ListContent">下载管理<span> (0)</span></span>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <span class="ListContent">我的电台<span> (0)</span></span>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <span class="ListContent">我的收藏<span> (专辑/歌手/MV/专栏)</span></span>
+                <div class="clear"></div>
+            </li>
+        </ul>
+        <div class="Toggle">
+            <div class="rotate"><img src="images/toggle.png" alt="toggle"></div>
+            <p>创建的歌单 <span>(2)</span></p>
+            <div class="Set"><img src="images/set.png" alt="setting"></div>
+        </div>
+        <ul class="MusicLIST">
+            <li>
+                <div class="groupmusic">
+                    <div class="groupimg">
+                        <img src="images/gorup1.png" alt="grouplike">
+                    </div>
+                    <div class="textspan">
+                        <span class="group">我喜欢的音乐</span>
+                        <span class="count">92 首</span>
+                    </div>
+                    <span class="grouppoint open-popup" data-popup=".popup-set">
+                        <span class="point"></span>
+                        <span class="point"></span>
+                        <span class="point"></span>
+                    </span>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <div class="groupmusic">
+                    <div class="groupimg">
+                        <img src="images/gorup2.png" alt="grouplike">
+                    </div>
+                    <div class="textspan">
+                        <span class="group">纯音乐</span>
+                        <span class="count">5 首</span>
+                    </div>
+                    <span class="grouppoint open-popup" data-popup=".popup-set">
+                        <span class="point"></span>
+                        <span class="point"></span>
+                        <span class="point"></span>
+                    </span>
+                    <div class="clear"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="js/framework7.min.js"></script>
+<script src="js/my-app.js"></script>
+</body>
+</html>

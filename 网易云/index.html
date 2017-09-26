@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>index</title>
+    <link href="css/framework7.ios.min.css" rel="stylesheet">
+    <link href="css/framework7.ios.colors.min.css" rel="stylesheet">
+    <link href="css/my-app.css" rel="stylesheet">
+</head>
+<body>
+<!-- Status bar overlay for full screen mode (PhoneGap) -->
+<div class="statusbar-overlay"></div>
+<!-- Panels overlay-->
+<div class="panel-overlay"></div>
+<!-- Left panel with reveal effect-->
+<div class="panel panel-left panel-cover">
+    <div class="panelcontent">
+        <div class="panel-top">
+            <img src="images/paneltop.png" align="panel-top">
+        </div>
+        <ul class="applist">
+            <li>我的消息</li>
+            <li>会员中心</li>
+            <li>商城</li>
+            <li>在线听歌免流量</li>
+        </ul>
+        <ul class="myfriends">
+            <li>我的好友</li>
+            <li>附近的人</li>
+        </ul>
+        <ul class="setting">
+            <li>个性换肤</li>
+            <li>听歌识曲</li>
+            <li>定时停止播放</li>
+            <li>扫一扫</li>
+        </ul>
+        <ul class="applist">
+            <li>我的消息</li>
+            <li>会员中心</li>
+            <li>商城</li>
+            <li>在线听歌免流量</li>
+        </ul>
+
+    </div>
+    <div class="panelfoot">
+        <ul>
+            <li>夜间模式</li>
+            <li>设置</li>
+            <li>退出</li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+</div>
+<div class="panel panel-right panel-cover">
+    <div class="content-block">
+        <p>Left panel content goes here</p>
+    </div>
+</div>
+<!-- Views -->
+<div class="views">
+    <!-- Your main view, should have "view-main" class -->
+    <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="left">
+                    <a href="#" class="open-panel">
+                        <div>
+                            <span class="icon-line"></span>
+                            <span class="icon-line"></span>
+                            <span class="icon-line"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="center">
+                    <a href="myMusic.html"><span class="music"></span></a>
+                    <a href="wyy.html"><span class="wyy active"></span></a>
+                    <a href="friends.html"><span class="mine"></span></a>
+                </div>
+                <div class="right">
+                    <a href="#" data-popup=".popup-search" class="open-popup"><img src="images/search.png"></a>
+                </div>
+            </div>
+        </div>
+        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+            <!-- Page, "data-page" contains page name -->
+            <div class="page" data-page="index">
+                <div class="page-content"></div>
+            </div>
+        </div>
+        <!-- Bottom Toolbar-->
+        <div class="toolbar">
+            <div class="toolbar-inner">
+                <div class="toolcontent">
+                    <img src="images/musicimg.png" class="musicimg" alt="musicimg">
+                    <ul class="Music">
+                        <li>刚好遇见你</li>
+                        <li>李玉刚</li>
+                    </ul>
+                    <div class="MenuList open-popup" data-popup=".popup-history">
+                        <a href="#">
+                            <img src="images/menu.png" align="musiclist">
+                        </a>
+                    </div>
+                    <div class="musicPlay">
+                        <img src="images/play.png" align="play">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="popup popup-search">
+    <div class="view">
+        <div class="page no-navbar" data-page="search">
+            <!-- Search Bar -->
+            <form action='' onsubmit="return false;" data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init">
+                <a href="#" class="close-popup"><img src="images/back.png"></a>
+                <div class="searchbar-input">
+                    <input class="searchbox" type="search" placeholder="搜索音乐、歌手、歌词、用户">
+                    <a href="#" class="searchbar-clear">×</a>
+                </div>
+                <!--<a href="#" class="searchbar-cancel">Cancel</a>-->
+            </form>
+            <a href="#" class="searchsinger">
+                <span class="Sleft"><img src="images/singerr.png"></span>
+                歌手分类
+                <span class="Sright"><img src="images/singerl.png"></span>
+            </a>
+            <div class="hotSearch">
+                <p class="hottext">热门搜索</p>
+                <ul class="hotList">
+                    <li>远走高飞</li>
+                    <li>Taylor Swift</li>
+                    <li>Vava</li>
+                    <li>一生所爱</li>
+                    <li>那年花开月正圆</li>
+                    <li>中国有嘻哈</li>
+                    <li>薛之谦</li>
+                    <li>小幸运</li>
+                    <li>我怀念的</li>
+                    <li>林俊杰</li>
+                    <div class="clear"></div>
+                </ul>
+            </div>
+            <ul class="history">
+                <li>
+                    <span class="HisLeft"><img src="images/history.png"></span>
+                    <span class="HisContent">非酋<span class="delete"><img src="images/delete.png"></span></span>
+                </li>
+                <li>
+                    <span class="HisLeft"><img src="images/history.png"></span>
+                    <span class="HisContent">消愁<span class="delete"><img src="images/delete.png"></span></span>
+                </li>
+                <li>
+                    <span class="HisLeft"><img src="images/history.png"></span>
+                    <span class="HisContent">岁月神偷<span class="delete"><img src="images/delete.png"></span></span>
+                </li>
+            </ul>
+            <div class="searchResult">
+                <div class="page-content searchcontent">
+                    <!-- This block will be displayed if nothing found -->
+                    <div class="content-block searchbar-not-found">
+                        <div class="content-block-inner">Nothing found</div>
+                    </div>
+
+                    <!-- This block will be displayed if anything found, and this list block is used a searbar target -->
+                    <div class="list-block list-block-search searchbar-found">
+                        <ul>
+                            <li class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">Acura </div>
+                                </div>
+                            </li>
+                            <li class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">drtgn</div>
+                                </div>
+                            </li>
+                            <li class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">gkjm</div>
+                                </div>
+                            </li>
+                            <li class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">aswewr</div>
+                                </div>
+                            </li>
+                            <li class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">sfreg</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Search Bar overlay -->
+            <div class="searchbar-overlay"></div>
+        </div>
+    </div>
+</div>
+<div class="popup popup-history">
+    <div class="ClosePop close-popup"></div>
+    <div class="content-block">
+        <ul class="ListMusic">
+            <li>
+                <div class="hisleft">
+                    列表循环
+                    <span>(52)</span>
+                </div>
+                <div class="hisright">
+                    <span class="collect">收藏</span>
+                    <span class="Clear">清空</span>
+                </div>
+                <div class="clear"></div>
+            </li>
+            <li>
+                岁月神偷<span> - 周笔畅</span>
+                <span class="del">
+                    <img src="images/delete.png" alt="delete">
+                </span>
+            </li>
+            <li>
+                暧昧<span> - 薛之谦</span>
+                <span class="del">
+                    <img src="images/delete.png" alt="delete">
+                </span></li>
+            <li>
+                强迫症<span> - 乔任梁</span>
+                <span class="del">
+                    <img src="images/delete.png" alt="delete">
+                </span>
+            </li>
+            <li>
+                够爱<span> - 东城卫</span>
+                <span class="del">
+                    <img src="images/delete.png" alt="delete">
+                </span>
+            </li>
+            <li>
+                岁月神偷<span> - 周笔畅</span>
+                <span class="del">
+                    <img src="images/delete.png" alt="delete">
+                </span>
+            </li>
+            <li>
+                暧昧<span> - 薛之谦</span>
+                <span class="del">
+                    <img src="images/delete.png" alt="delete">
+                </span></li>
+            <li>
+                强迫症<span> - 乔任梁</span>
+                <span class="del">
+                    <img src="images/delete.png" alt="delete">
+                </span>
+            </li>
+            <li>
+                够爱<span> - 东城卫</span>
+                <span class="del">
+                    <img src="images/delete.png" alt="delete">
+                </span>
+            </li>
+            <li>
+                岁月神偷<span> - 周笔畅</span>
+                <span class="del">
+                    <img src="images/delete.png" alt="delete">
+                </span>
+            </li>
+            <li>
+                暧昧<span> - 薛之谦</span>
+                <span class="del">
+                    <img src="images/delete.png" alt="delete">
+                </span></li>
+            <li>
+                强迫症<span> - 乔任梁</span>
+                <span class="del">
+                    <img src="images/delete.png" alt="delete">
+                </span>
+            </li>
+            <li>
+                够爱<span> - 东城卫</span>
+                <span class="del">
+                    <img src="images/delete.png" alt="delete">
+                </span>
+            </li>
+        </ul>
+        <p>About</p>
+        <p><a href="#" class="close-popup">Close popup</a></p>
+        <p>Lorem ipsum dolor ...</p>
+        <p>About</p>
+        <p><a href="#" class="close-popup">Close popup</a></p>
+        <p>Lorem ipsum dolor ...</p>
+        <p>About</p>
+        <p><a href="#" class="close-popup">Close popup</a></p>
+        <p>Lorem ipsum dolor ...</p>
+        <p>About</p>
+        <p><a href="#" class="close-popup">Close popup</a></p>
+        <p>Lorem ipsum dolor ...</p>
+    </div>
+</div>
+<div class="popup popup-set">
+    <div class="ClosePop close-popup"></div>
+    <div class="setlist">
+        <ul>
+            <li>歌单：纯音乐</li>
+            <li>
+                <span class="setimg">
+                  <img src="images/set1.png" alt="set1">
+                </span>
+                <p>下载</p>
+                <div class="Clear"></div>
+            </li>
+            <li>
+                <span class="setimg">
+                   <img src="images/set2.png" alt="set1">
+                </span>
+                <p>分享</p>
+                <div class="Clear"></div>
+            </li>
+            <li>
+                <span class="setimg">
+                   <img src="images/set3.png" alt="set1">
+                </span>
+                <p>编辑歌单信息</p>
+                <div class="Clear"></div>
+            </li>
+            <li>
+                <span class="setimg">
+                  <img src="images/set4.png" alt="set1">
+                </span>
+                <p>删除</p>
+                <div class="Clear"></div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="popover popover-collect">
+    <div class="popover-angle"></div>
+    <div class="popover-inner">
+        <div class="content-block">
+            <p>About</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac diam ac quam euismod porta vel a nunc. Quisque sodales scelerisque est, at porta justo cursus ac.</p>
+        </div>
+    </div>
+</div>
+<script src="js/framework7.min.js"></script>
+<script src="js/my-app.js"></script>
+</body>
+</html>

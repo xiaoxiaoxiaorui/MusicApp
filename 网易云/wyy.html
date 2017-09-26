@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>wyy</title>
+    <link href="css/framework7.ios.min.css" rel="stylesheet">
+    <link href="css/framework7.ios.colors.min.css" rel="stylesheet">
+    <link href="css/my-app.css" rel="stylesheet">
+</head>
+<body>
+<!-- Status bar overlay for full screen mode (PhoneGap) -->
+<div class="statusbar-overlay"></div>
+<!-- Panels overlay-->
+<div class="panel-overlay"></div>
+<!-- Left panel with reveal effect-->
+<div class="panel panel-left panel-cover">
+    <div class="content-block">
+        <p>Left panel content goes here</p>
+    </div>
+</div>
+<div class="panel panel-right panel-cover">
+    <div class="content-block">
+        <p>Left panel content goes here</p>
+    </div>
+</div>
+<!-- Views -->
+<div class="views">
+    <!-- Your main view, should have "view-main" class -->
+    <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="left">
+                    <a href="#" class="open-panel">
+                        <div>
+                            <span class="icon-line"></span>
+                            <span class="icon-line"></span>
+                            <span class="icon-line"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="center">
+                    <a href="myMusic.html"><span class="music"></span></a>
+                    <a href="wyy.html"><span class="wyy active"></span></a>
+                    <a href="friends.html"><span class="mine"></span></a>
+                </div>
+                <div class="right">
+                    <a href="#" data-popup=".popup-search" class="open-popup"><img src="images/search.png"></a>
+                </div>
+                <div class="subnavbar sliding">
+                    <div class="buttons-row">
+                        <a href="recommend.html" class="button active">个性推荐</a>
+                        <a href="musicList.html" class="button">歌单</a>
+                        <a href="radioStation.html" class="button">主播电台</a>
+                        <a href="rankList.html" class="button">排行榜</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+            <!-- Page, "data-page" contains page name -->
+            <div class="page" data-page="wyy">
+                <div class="page-content page-index with-subnavbar">
+                    <!-- slider -->
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="images/slide1.png"></div>
+                            <div class="swiper-slide"><img src="images/slide1.png"></div>
+                            <div class="swiper-slide"><img src="images/slide1.png"></div>
+                            <div class="swiper-slide"><img src="images/slide1.png"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Toolbar-->
+        <div class="toolbar">
+            <div class="toolbar-inner">
+                <!-- Toolbar links -->
+                <a href="#" class="link">Link 1</a>
+                <a href="#" class="link">Link 2</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/framework7.min.js"></script>
+<script src="js/my-app.js"></script>
+</body>
+</html>
