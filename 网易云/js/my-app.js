@@ -137,7 +137,7 @@ $$('.del').on('click',function () {
 });
 
 $$('.collect').on('click',function () {
-    myApp.popover('.popover-collect', this);
+    myApp.popover('.popover-collect', '.ListMusic li:nth-child(4)');
 });
 
 
