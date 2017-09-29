@@ -7,7 +7,8 @@ var $$ = Dom7;
 // Add view
 var mainView = myApp.addView('.view-main', {
     // Because we use fixed-through navbar we can enable dynamic navbar
-    dynamicNavbar: true
+    dynamicNavbar: true,
+    modalCloseByOutside: true
 });
 
 mainView.router.load({
@@ -137,7 +138,51 @@ $$('.del').on('click',function () {
 });
 
 $$('.collect').on('click',function () {
-    myApp.popover('.popover-collect', '.ListMusic li:nth-child(4)');
+    myApp.popover('.popover-collect', '.ListMusic li:nth-child(5)');
+});
+
+$$('.AddList').on('click',function () {
+    var modal_over ='<div class="Modal-Up"></div>';
+    $$('body').append(modal_over);
+    /*$$('.Modal-Up').css('display','block');*/
+   var modal =  myApp.modal({
+       title:'新建歌单',
+       text:'<input class="Text" type="text" placeholder="请输入歌单标题">'+
+       '0/40'+'<span><input class="Check" type="checkbox"><label>设置为隐私菜单</label></span>'+
+       '<div class="ButtonGroup"><span class="Submit Btn">提交</span><span class="Close Btn">取消</span></div>'
+       /*buttons:[{
+           text:'提交'
+       },{
+           text:'取消'
+       }]*/
+   });
+    var DisPlay = $$('.modal').css('block');
+    if(DisPlay == 'block'){
+        alert(1)
+    }else {
+        $$('.Text').focus();
+    }
+    $$('.Modal-Up').on('click',function () {
+        $$('.modal').remove();
+        $$(this).remove();
+    });
+    $$('.Submit').on('click',function () {
+        var str = $$('.Text').val();
+        var cont = 0;
+        var Url = 'images/gorup1.png';
+        var content = '<div class="Music_List">' +
+            '<img src="'+Url+'" alt="music list 1">' +
+            '<span class="groupname">' +
+            '<span>'+str+'</span>' +
+            '<span>'+cont+'</span>' +
+            '</span>' +
+            '<div class="clear"></div></div>';
+        $$('.popover-collect .content-block').append(content);
+    });
+    $$('.Btn').on('click',function () {
+        $$('.modal').remove();
+        $$('.Modal-Up').remove();
+    });
 });
 
 
