@@ -64,6 +64,14 @@ myApp.onPageInit('myMusic',function () {
     /*$$('.grouppoint').on('click',function () {
 
     })*/
+    $$('.navdisplay').on('click',function () {
+        var Display = $$('.popup-local').css('display');
+        if(Display == 'block'){
+            $$(".subnavbar").css("display","none");
+        }else {
+            $$(".subnavbar").css("display","block");
+        }
+    });
 });
 myApp.onPageInit('recommend',function () {
     var mySwiper = myApp.swiper('.swiper-container',{
@@ -174,7 +182,7 @@ $$('.AddList').on('click',function () {
             '<img src="'+Url+'" alt="music list 1">' +
             '<span class="groupname">' +
             '<span>'+str+'</span>' +
-            '<span>'+cont+'</span>' +
+            '<span>'+cont+'首</span>' +
             '</span>' +
             '<div class="clear"></div></div>';
         $$('.popover-collect .content-block').append(content);
@@ -183,9 +191,44 @@ $$('.AddList').on('click',function () {
         $$('.modal').remove();
         $$('.Modal-Up').remove();
     });
+}).on('touchstart',function () {
+    $$(this).css('background','#e7e9e9')
+}).on('touchend',function () {
+    $$(this).css('background','#fff')
 });
 
+/* 打开搜索本地音乐页面 */
+$$('.searchpage').on('click',function () {
+    $$('.LocalSearch').css('display','block');
+    $$('.left,.right,.localmusic').css('display','none');
+});
 
+$$('.LocalSearch span').on('click',function () {
+    $$('.LocalSearch').css('display','none');
+    $$('.left,.right,.localmusic,.subnavbar').css('display','block');
+});
 
+$$('.searchpage,.popup-local .close-popup').on('click',function () {
+    $$(".subnavbar").css("display","none");
+});
 
+$$('.PlayList .grouppoint').on('click',function () {
+    $$('.Closedetail').show();
+   $$('.detail').animate({bottom:'0'},200);
+});
 
+$$('.Closedetail').on('click',function () {
+    $$('.detail').animate({bottom:'-400'},500);
+    $$('.Closedetail').hide();
+});
+
+/* 打开历史播放记录 */
+$$('.MenuList').on('click',function () {
+    $$('.historydisplay').show();
+    $$('.History').animate({bottom:'0'},50);
+});
+$$('.historydisplay').on('click',function () {
+    $$('.History').animate({bottom:'-400'},50);
+    /*$$('.History').css('bottom','-400px');*/
+    $$('.historydisplay').hide();
+});

@@ -6,7 +6,7 @@ body{ padding: 0; margin: 0; border: none; list-style: none;}
 /* index */
 .navbar-inner{ background: #d33a31; color: #fff; padding: 0 17px;}
 .left .icon-line{ width: 22px; height: 2px; display: block; background: #fff; margin: 5px 0;}
-.right a{ line-height: 13px;}
+.right a{ line-height: 0; display: block; float: left;}
 .center a{ padding: 0 15px;}
 .center a span{ width: 26px; height: 24px; display: block;}
 .music{ background: url("../images/Music.png") no-repeat; background-size: 100% 100%;}
@@ -87,9 +87,7 @@ body.with-panel-left-cover .panel.panel-left{ transform: none;}
 .musicPlay{ float: right; margin: 8px 21px 0 0;}
 
 /* 历史歌单pop */
-.popup-history{ background: rgba(0,0,0,.001);}
 .ClosePop{ width: 100%; height: 100%; position: absolute; top: 0; left: 0;}
-.popup-history .content-block{ width: 100%; height: 380px; color: #333; padding: 0; overflow: auto; position: absolute; bottom: 0; left: 0; background: #f3f3f3;}
 .ListMusic{ padding: 0; margin-top: 0;}
 .ListMusic li{ border-bottom: 1px solid #dbdbdb; height: 45px; line-height: 45px;}
 .ListMusic .blank{ width: 15px; background: #f3f3f3; height: 46px; float: left;}
@@ -103,6 +101,10 @@ body.with-panel-left-cover .panel.panel-left{ transform: none;}
 .Clear{ padding-left: 23px; background: url("../images/clear.png") no-repeat;}
 .del{ color: #aaabac; font-size: 14px; float: right; padding-right: 16px;}
 .del img{ width: 11px; height: 11px;}
+
+.historydisplay{ width: 100%; height: 100%; background: rgba(0,0,0,0.4); position: absolute; top: 0; left: 0; z-index: 12000; display: none;}
+.History{ width: 100%; height: 380px; overflow: hidden; position: absolute; bottom: -400px; left: 0; z-index: 12000;}
+.History .content-block{ width: 100%; height: 380px; color: #333; padding: 0; overflow: auto; position: absolute; bottom: 0; left: 0; background: #f3f3f3;}
 
 /* myMusic */
 .MusicList{ padding: 0 0  0 15px; margin: 0; background: #f2f4f5; color: #333;}
@@ -141,6 +143,7 @@ body.with-panel-left-cover .panel.panel-left{ transform: none;}
 .popover-angle{ display: none;}
 .popover{ width: 90%; border-radius: 0;}
 .popover-collect .content-block{ padding: 0;}
+.popover-collect{ background: #fff;}
 .collecttitle{ padding: 0 15px;}
 .AddList img{ float: left;}
 .AddList p{ margin: 0 0 0 20px; float: left; line-height: 29px; color: #6d6d72;}
@@ -170,5 +173,44 @@ html.ios-gt-8 .modal-title{ font-weight: normal;}
 .Modal-Up{ width: 100%; height: 100%; background: rgba(0,0,0,.4); position: absolute; top: 0; left: 0; z-index: 13500;}
 .ButtonGroup{ height: 26px;}
 .Btn{ color: #d33a31; font-size: 13px; height: 26px; line-height: 26px; float: right; width: 50px; padding: 0 5px; text-align: center;}
-.Submit{}
-.Close{}
+
+/* 本地音乐 */
+.pointw{ width: 3px; height: 3px; background: #fff; border-radius: 50%; display: block; margin-bottom: 5px;}
+.popup-local{ overflow: hidden;}
+.popup-local .navbar-inner{ padding: 0;}
+.popup-local .grouppoint{ padding: 6px 15px 0 15px;}
+.Listname{ font-size: 14px; float: left;}
+.popup-local .close-popup img{ padding-right: 15px;}
+.navbar .LocalSearch input[type=search]{ margin-top: 8px; width: 84%; background-color: #d33a31; color: #edb0ad; border-bottom: 1px solid #edb0ad; border-radius: 0; padding: 0 1px;}
+.LocalSearch{ display: none; width: 100%; height: 100%;}
+.LocalSearch span{ float: left; font-size: 0;}
+.LocalSearch span img{ width: 20px; height: 18px; padding: 0 15px 0 13px; vertical-align: middle;}
+.LocalSearch input{ float: left;}
+.navbar .LocalSearch input[type=search]::-webkit-input-placeholder{ color: #e0756e;}
+.search.left{ width: 100%; height: 100%;}
+.LocalCenter{ width: 100%; height: 100%;}
+.close-popup{ line-height: 0; display: block; float: left;}
+.searchpage img{}
+.subnavbar{ height: 38px;}
+.buttons-row .button{ height: 38px; line-height: 38px;}
+.navbar-fixed .page-content.with-subnavbar,
+.navbar-fixed .subnavbar~.page-content,
+.navbar-fixed .with-subnavbar .page-content,
+.navbar-through .page-content.with-subnavbar,
+.navbar-through .subnavbar~.page-content,
+.navbar-through .with-subnavbar .page-content{ padding-top: 82px;}
+.PlayList{ margin: 0; padding: 0;}
+.PlayList li{ height: 54px; border-bottom: 1px solid #dadcdd; margin-left: 15px;}
+.PlayList .Play{ height: 49px; padding: 0 15px; margin: 0;}
+.Play>span{ color: #333; display: block; line-height: 49px;}
+.PlayIcon{ padding-left: 35px; float: left; background: url("../images/playicon.png") 0 15px no-repeat;}
+.PlayIcon span{ color: #7b7c7d}
+.SelectIcon{ padding-left: 18px; float: right; background: url("../images/selecticon.png") 0 19px no-repeat;}
+.PlayList .grouppoint{padding: 22px 15px 17px 15px;}
+.PlayList .textspan{ margin-top: 2px;}
+.popup-detail{ background: rgba(0,0,0,0.1);}
+.Closedetail{ width: 100%; height: 100%; background: rgba(0,0,0,0.4); display: none; position: absolute; top: 0; left: 0; z-index: 11001;}
+.detail{ width: 100%; height: 400px; overflow: hidden; position: absolute; bottom: -400px; left: 0; z-index: 11002;}
+/*.closedetail{ width: 100%; height: 40%;}*/
+.detail .setlist{ width: 100%; height: 400px; overflow: auto;}
+.detail .setlist ul{ margin: 0; padding-left: 15px;}
