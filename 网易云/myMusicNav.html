@@ -5,12 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <title>myMusic</title>
+    <title>myMusicNav</title>
     <link href="css/framework7.ios.min.css" rel="stylesheet">
     <link href="css/framework7.ios.colors.min.css" rel="stylesheet">
     <link href="css/my-app.css" rel="stylesheet">
 </head>
 <body>
+<!-- Top Navbar-->
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="#" class="open-panel">
+                <div>
+                    <span class="icon-line"></span>
+                    <span class="icon-line"></span>
+                    <span class="icon-line"></span>
+                </div>
+            </a>
+        </div>
+        <div class="center">
+            <a href="myMusic.html"><span class="music active"></span></a>
+            <a href="wyy.html"><span class="wyy"></span></a>
+            <a href="friends.html"><span class="mine"></span></a>
+        </div>
+        <div class="right">
+            <a href="#" data-popup=".popup-search" class="open-popup"><img src="images/search.png"></a>
+        </div>
+    </div>
+</div>
 <div class="page" data-page="myMusic">
     <div class="page-content">
         <ul class="MusicList">
@@ -92,7 +114,5 @@
         </ul>
     </div>
 </div>
-<script src="js/framework7.min.js"></script>
-<script src="js/my-app.js"></script>
 </body>
 </html>

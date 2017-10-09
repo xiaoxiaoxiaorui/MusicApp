@@ -19,7 +19,7 @@ mainView.router.load({
 var mySwiper = myApp.swiper('.swiper-container',{
     pagination:'.swiper-pagination'
 });
-
+//  wyy页面初始化
 myApp.onPageInit('wyy',function () {
     var mySwiper = myApp.swiper('.swiper-container',{
         pagination:'.swiper-pagination'
@@ -50,7 +50,8 @@ myApp.onPageInit('wyy',function () {
         }
     });
 });
-myApp.onPageInit('myMusic',function () {
+//  myMusic和myMusicNav页面初始化执行
+myApp.onPageInit('myMusic,myMusicNav',function () {
     $$('.Toggle').on('click',function () {
         var List = $$('.MusicLIST').css('display');
         if(List == 'block'){
@@ -61,9 +62,6 @@ myApp.onPageInit('myMusic',function () {
             $$('.rotate img').css('transform','rotate(0deg)')
         }
     });
-    /*$$('.grouppoint').on('click',function () {
-
-    })*/
     $$('.navdisplay').on('click',function () {
         var Display = $$('.popup-local').css('display');
         if(Display == 'block'){
@@ -74,17 +72,63 @@ myApp.onPageInit('myMusic',function () {
         }
     });
 });
+myApp.onPageInit('myMusic',function () {
+    $$(".subnavbar").css("display","none");
+});
+//  recommend页面初始化执行
 myApp.onPageInit('recommend',function () {
     var mySwiper = myApp.swiper('.swiper-container',{
         pagination:'.swiper-pagination'
     });
 });
-
-myApp.onPageInit('myMusic',function () {
-   $$(".subnavbar").css("display","none");
-});
+//  friends 页面初始化执行
 myApp.onPageInit('friends',function () {
     $$(".subnavbar").css("display","none");
+});
+//  SearchLocal页面初始化执行
+myApp.onPageInit('SearchLocal',function () {
+    /* 打开搜索本地音乐页面 */
+    $$('.searchpage').on('click',function () {
+        $$('.LocalSearch').css('display','block');
+        $$('.left,.right,.localmusic').css('display','none');
+    });
+
+    $$('.LocalSearch span').on('click',function () {
+        $$('.LocalSearch').css('display','none');
+        $$('.localmusic,.subnavbar').css('display','block');
+        $$('.left,.right').css('display','flex');
+    });
+    $$('.searchpage,.popup-local .close-popup').on('click',function () {
+        $$(".subnavbar").css("display","none");
+    });
+//  给搜索框添加清空输入功能
+    /* 内容为空消失 */
+    $$('.search-box input').on('focus',function () {
+        var str = $$('.search-box input').val();
+        if(str == ''){
+            $$('.search-box a').css('display','none');
+        }else{
+            $$('.search-box a').css('display','block');
+        }
+    });
+    /* 不为空出现 */
+    $$('.search-box input').on('keyup',function () {
+        var str = $$('.search-box input').val();
+        if(str == ''){
+            $$('.search-box a').css('display','none');
+        }else{
+            $$('.search-box a').css('display','block');
+        }
+    });
+    /* 点击删除 */
+    $$('.search-box a').on('click',function () {
+        $$(this).prev().val('').focus();
+    });
+/* 点击改变二级菜单选中时的样式 */
+    $$(".buttons-row .button").on("click",function () {
+        $$(".buttons-row .button").removeClass("active");
+        $$(this).addClass("active");
+    });
 });
 mainView.router.load({
     url:'wyy.html',
@@ -198,30 +242,6 @@ $$('.AddList').on('click',function () {
     $$(this).css('background','#fff')
 });
 
-/* 打开搜索本地音乐页面 */
-$$('.searchpage').on('click',function () {
-    $$('.LocalSearch').css('display','block');
-    $$('.left,.right,.localmusic').css('display','none');
-});
-
-$$('.LocalSearch span').on('click',function () {
-    $$('.LocalSearch').css('display','none');
-    $$('.left,.right,.localmusic,.subnavbar').css('display','block');
-});
-
-$$('.searchpage,.popup-local .close-popup').on('click',function () {
-    $$(".subnavbar").css("display","none");
-});
-
-$$('.PlayList .grouppoint').on('click',function () {
-    $$('.Closedetail').show();
-   $$('.detail').animate({bottom:'0'},200);
-});
-
-$$('.Closedetail').on('click',function () {
-    $$('.detail').animate({bottom:'-400'},500);
-    $$('.Closedetail').hide();
-});
 
 /* 打开历史播放记录 */
 $$('.MenuList').on('click',function () {
@@ -234,26 +254,3 @@ $$('.historydisplay').on('click',function () {
     $$('.historydisplay').hide();
 });
 
-//  给搜索框添加清空输入功能
-/* 内容为空消失 */
-$$('.search-box input').on('focus',function () {
-    var str = $$('.search-box input').val();
-    if(str == ''){
-        $$('.search-box a').css('display','none');
-    }else{
-        $$('.search-box a').css('display','block');
-    }
-});
-/* 不为空出现 */
-$$('.search-box input').on('keyup',function () {
-    var str = $$('.search-box input').val();
-    if(str == ''){
-        $$('.search-box a').css('display','none');
-    }else{
-        $$('.search-box a').css('display','block');
-    }
-});
-/* 点击删除 */
-$$('.search-box a').on('click',function () {
-    $$(this).prev().val('').focus();
-});
