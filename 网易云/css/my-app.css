@@ -181,7 +181,9 @@ html.ios-gt-8 .modal-title{ font-weight: normal;}
 .popup-local .grouppoint{ padding: 6px 15px 0 15px;}
 .Listname{ font-size: 14px; float: left;}
 .popup-local .close-popup img{ padding-right: 15px;}
-.navbar .LocalSearch input[type=search]{ margin-top: 8px; width: 84%; background-color: #d33a31; color: #edb0ad; border-bottom: 1px solid #edb0ad; border-radius: 0; padding: 0 1px;}
+.LocalSearch .search-box{ width: 84%; height: 28px; margin-top: 8px; float: left; position: relative;}
+.LocalSearch .search-box a{ display: none; color: #fff; position: absolute; right: 2px; padding: 0; line-height: 28px; font-size: 22px;}
+.navbar .LocalSearch input[type=search]{ width: 100%; background-color: #d33a31; color: #edb0ad; border-bottom: 1px solid #edb0ad; border-radius: 0; padding: 0 1px;}
 .LocalSearch{ display: none; width: 100%; height: 100%;}
 .LocalSearch span{ float: left; font-size: 0;}
 .LocalSearch span img{ width: 20px; height: 18px; padding: 0 15px 0 13px; vertical-align: middle;}
@@ -214,3 +216,8 @@ html.ios-gt-8 .modal-title{ font-weight: normal;}
 /*.closedetail{ width: 100%; height: 40%;}*/
 .detail .setlist{ width: 100%; height: 400px; overflow: auto;}
 .detail .setlist ul{ margin: 0; padding-left: 15px;}
+.navbar .LocalSearch input[type=search]::-webkit-search-cancel-button {
+    display: none;
+}
+.popup-local .right{ display: block;}
+.popup-local .right a{ margin-top: 3px;}

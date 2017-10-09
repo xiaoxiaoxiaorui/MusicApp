@@ -69,7 +69,8 @@ myApp.onPageInit('myMusic',function () {
         if(Display == 'block'){
             $$(".subnavbar").css("display","none");
         }else {
-            $$(".subnavbar").css("display","block");
+            $$(".subnavbar").css("display","none");
+            $$(".popup-local .subnavbar").css("display","block");
         }
     });
 });
@@ -231,4 +232,28 @@ $$('.historydisplay').on('click',function () {
     $$('.History').animate({bottom:'-400'},50);
     /*$$('.History').css('bottom','-400px');*/
     $$('.historydisplay').hide();
+});
+
+//  给搜索框添加清空输入功能
+/* 内容为空消失 */
+$$('.search-box input').on('focus',function () {
+    var str = $$('.search-box input').val();
+    if(str == ''){
+        $$('.search-box a').css('display','none');
+    }else{
+        $$('.search-box a').css('display','block');
+    }
+});
+/* 不为空出现 */
+$$('.search-box input').on('keyup',function () {
+    var str = $$('.search-box input').val();
+    if(str == ''){
+        $$('.search-box a').css('display','none');
+    }else{
+        $$('.search-box a').css('display','block');
+    }
+});
+/* 点击删除 */
+$$('.search-box a').on('click',function () {
+    $$(this).prev().val('').focus();
 });
