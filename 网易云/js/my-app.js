@@ -129,6 +129,36 @@ myApp.onPageInit('SearchLocal',function () {
         $$(".buttons-row .button").removeClass("active");
         $$(this).addClass("active");
     });
+
+    /* 动态加载音乐列表 */
+    $$.ajax({
+        url:'music.json',
+        dataType:'json',
+        method:'get',
+        success:function (data) {
+            $$.each(data,function (index) {
+                var Music = data[index].Title;
+                var Name = data[index].Name;
+                var EP = data[index].EP;
+                var str = '<li><div class="textspan">' +
+                    '<span class="group">'+ Music +'</span>' +
+                    '<span class="count">'+ Name +' - '+ EP +'</span>' +
+                    '</div>' +
+                    '<span class="grouppoint open-popup" data-popup=".popup-detail">' +
+                    '<span class="point"></span>' +
+                    '<span class="point"></span>' +
+                    '<span class="point"></span>' +
+                    '</span>' +
+                    '<div class="clear"></div></li>';
+                $$('.PlayList').append(str);
+            });
+        }
+    });
+    /* 详情页面文字 */
+    $$('.grouppoint').on('click',function () {
+        var Name = $$(this).prev().children('.group').html();
+        $$('.popup-detail .setlist ul li').eq(0).html("歌曲： "+Name);
+    })
 });
 mainView.router.load({
     url:'wyy.html',
