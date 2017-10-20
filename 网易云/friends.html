@@ -12,9 +12,26 @@
 </head>
 <body>
 <div class="page" data-page="friends">
-    <div class="page-content">
-        <p>my friends</p>
+    <!-- Page content应该拥有"pull-to-refresh-content"类 -->
+    <div class="page-content pull-to-refresh-content" data-ptr-distance="55"><!-- data-ptr-distance下拉刷新的距离，默认是44 -->
+        <!-- 默认的下拉刷新层 -->
+        <div class="pull-to-refresh-layer">
+            <div class="preloader"></div>
+            <div class="pull-to-refresh-arrow"></div>
+            <div class="loader">
+                <div class="loader-inner ball-clip-rotate">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <!-- 下面是正文 -->
+        <div class="list-block Fimg">
+            <img src="images/res1.png" alt="res1">
+            <img src="images/res2.png" alt="res1">
+            <img src="images/res3.png" alt="res1">
+        </div>
     </div>
+    <div class="GoTop"><img src="images/arrowtop.png" alt="go top"></div>
 </div>
 <script src="js/framework7.min.js"></script>
 <script src="js/my-app.js"></script>

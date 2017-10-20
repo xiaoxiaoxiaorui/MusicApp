@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>shoppiong</title>
+    <link href="css/framework7.ios.min.css" rel="stylesheet">
+    <link href="css/framework7.ios.colors.min.css" rel="stylesheet">
+    <link href="css/my-app.css" rel="stylesheet">
+</head>
+<body>
+<div class="views">
+    <!-- Your main view, should have "view-main" class -->
+    <div class="view view-main">
+        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages">
+            <!-- Page, "data-page" contains page name -->
+            <div class="page navbar-fixed toolbar-fixed" data-page="shopping">
+                <!-- Top Navbar-->
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <div class="left">
+                            <a href="#" class="back">
+                                <img src="images/back.png">
+                            </a>
+                        </div>
+                        <div class="center">
+                            <input type="search" value="search">
+                        </div>
+                        <div class="right">
+                            <a href="#" data-popup=".popup-search" class="open-popup"><img src="images/search.png"></a>
+                        </div>
+                        <div class="subnavbar sliding">
+                            <div class="buttons-row">
+                                <a href="#page1" class="tab-link button active">分类</a>
+                                <a href="#page2" class="tab-link button">旗舰店</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-content with-subnavbar">
+                    <div class="tabs">
+                        <div class="category tab active" id="page1">
+                            <div class="Left">
+                                <ul class="LeftList">
+                                    <li><a href="#tab1" class="tab-link active">女装</a></li>
+                                    <li><a href="#tab2" class="tab-link">男装</a></li>
+                                    <li><a href="#tab3" class="tab-link">休闲装</a></li>
+                                    <li><a href="#tab4" class="tab-link">女鞋</a></li>
+                                    <li><a href="#tab5" class="tab-link">男鞋</a></li>
+                                    <li><a href="">箱包皮具</a></li>
+                                    <li><a href="">手表配饰</a></li>
+                                    <li><a href="">美妆个护</a></li>
+                                    <li><a href="">母婴</a></li>
+                                    <li><a href="">运动户外</a></li>
+                                    <li><a href="">手机数码</a></li>
+                                    <li><a href="">家用电器</a></li>
+                                    <li><a href="">运动装</a></li>
+                                    <li><a href="">首饰</a></li>
+                                    <li><a href="">洗护</a></li>
+                                    <li><a href="">箱包皮具</a></li>
+                                    <li><a href="">手表配饰</a></li>
+                                    <li><a href="">美妆个护</a></li>
+                                    <li><a href="">母婴</a></li>
+                                    <li><a href="">运动户外</a></li>
+                                    <li><a href="">手机数码</a></li>
+                                    <li><a href="">家用电器</a></li>
+                                    <li><a href="">运动装</a></li>
+                                    <li><a href="">首饰</a></li>
+                                    <li><a href="">洗护</a></li>
+                                </ul>
+                            </div>
+                            <div class="Right tabs">
+                                <div class="tab active" id="tab1">11111111111</div>
+                                <div class="tab" id="tab2">222222222222222</div>
+                                <div class="tab" id="tab3">333333333333333333</div>
+                                <div class="tab" id="tab4">4444444444444444444</div>
+                                <div class="tab" id="tab5">555555555555555</div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="shop tab tabs" id="page2">
+                            <div class="tab active" id="tab11">11111111111111</div>
+                            <div class="tab" id="tab12">2222222222222222</div>
+                            <div class="tab" id="tab13">333333333333333</div>
+                            <div class="tab" id="tab14">44444444444444</div>
+                            <div class="tab" id="tab15">555555555555</div>
+                            <div class="tab" id="tab16">66666666666666666</div>
+                            <div class="tab" id="tab17">777777777777</div>
+                            <div class="tab" id="tab18">88888888888888888</div>
+                            <div class="tab" id="tab19">999999999999999</div>
+                            <div class="tab" id="tab20">0000000000000000000</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="toolbar tabbar tabbar-scrollable">
+                    <div class="toolbar-inner">
+                        <a href="#tab11" class="tab-link active">Tab 1</a>
+                        <a href="#tab12" class="tab-link">Tab 2</a>
+                        <a href="#tab13" class="tab-link">Tab 3</a>
+                        <a href="#tab14" class="tab-link">Tab 4</a>
+                        <a href="#tab15" class="tab-link">Tab 5</a>
+                        <a href="#tab16" class="tab-link">Tab 6</a>
+                        <a href="#tab17" class="tab-link">Tab 7</a>
+                        <a href="#tab18" class="tab-link">Tab 8</a>
+                        <a href="#tab19" class="tab-link">Tab 9</a>
+                        <a href="#tab20" class="tab-link">Tab 10</a>
+                        <a href="#tab21" class="tab-link">Tab 11</a>
+                        <a href="#tab22" class="tab-link">Tab 12</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Toolbar-->
+        <!--<div class="toolbar">
+            <div class="toolbar-inner">
+                &lt;!&ndash; Toolbar links &ndash;&gt;
+                <a href="#" class="link">Link 1</a>
+                <a href="#" class="link">Link 2</a>
+            </div>
+        </div>-->
+    </div>
+</div>
+<script src="js/framework7.min.js"></script>
+<script>
+    var myApp = new Framework7({
+        pushState: true,
+        popupCloseByOutside: true,
+        modalCloseByOutside: true
+    });
+
+    // Export selectors engine
+    var $$ = Dom7;
+
+    // Add view
+    var mainView = myApp.addView('.view-main', {
+        // Because we use fixed-through navbar we can enable dynamic navbar
+        dynamicNavbar: true,
+        modalCloseByOutside: true
+    });
+    $$('.buttons-row .tab-link').on('click',function () {
+        var Dis = $$('.shop').css('display');
+        if(Dis == 'none'){
+            $$('.navbar-fixed .toolbar').css('display','block');
+        }else {
+            $$('.navbar-fixed .toolbar').css('display','none');
+        }
+    })
+</script>
+</body>
+</html>

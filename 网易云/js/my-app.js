@@ -1,5 +1,9 @@
 // Initialize your app
-var myApp = new Framework7();
+var myApp = new Framework7({
+    pushState: true,
+    popupCloseByOutside: true,
+    modalCloseByOutside: true
+});
 
 // Export selectors engine
 var $$ = Dom7;
@@ -49,9 +53,19 @@ myApp.onPageInit('wyy',function () {
             })
         }
     });
+
+    $$('.list-block-search ul li').on('click',function () {
+       var SearchList = $$(this).find('.item-title').html();
+       $$('.searchbar-init').find('input').val(SearchList);
+        $$('.searchResult').css("display",'none');
+    });
+    /*$$('.page-content').on('scroll',function () {
+        alert('');
+        console.log($$(this).scrollTop())
+    });*/
 });
-//  myMusic和myMusicNav页面初始化执行
-myApp.onPageInit('myMusic,myMusicNav',function () {
+//  myMusic页面初始化执行
+myApp.onPageInit('myMusic',function () {
     $$('.Toggle').on('click',function () {
         var List = $$('.MusicLIST').css('display');
         if(List == 'block'){
@@ -75,6 +89,28 @@ myApp.onPageInit('myMusic,myMusicNav',function () {
 myApp.onPageInit('myMusic',function () {
     $$(".subnavbar").css("display","none");
 });
+//  myMusicNav页面初始化执行
+myApp.onPageInit('myMusicNav',function () {
+    $$('.Toggle').on('click',function () {
+        var List = $$('.MusicLIST').css('display');
+        if(List == 'block'){
+            $$('.MusicLIST').hide();
+            $$('.rotate img').css('transform','rotate(-90deg)')
+        }else{
+            $$('.MusicLIST').show();
+            $$('.rotate img').css('transform','rotate(0deg)')
+        }
+    });
+    $$('.navdisplay').on('click',function () {
+        var Display = $$('.popup-local').css('display');
+        if(Display == 'block'){
+            $$(".subnavbar").css("display","none");
+        }else {
+            $$(".subnavbar").css("display","none");
+            $$(".popup-local .subnavbar").css("display","block");
+        }
+    });
+});
 //  recommend页面初始化执行
 myApp.onPageInit('recommend',function () {
     var mySwiper = myApp.swiper('.swiper-container',{
@@ -84,6 +120,37 @@ myApp.onPageInit('recommend',function () {
 //  friends 页面初始化执行
 myApp.onPageInit('friends',function () {
     $$(".subnavbar").css("display","none");
+    //  下拉刷新页面
+        /* 随意编造的内容 */
+    var Url = ['res1','res2','res3'];
+        /* 下拉刷新页面 */
+    var ptrContent = $$('.pull-to-refresh-content');
+        /* 添加'refresh'监听器 */
+    ptrContent.on('refresh', function (e) {
+        /* 模拟2s的加载过程 */
+        setTimeout(function () {
+            /* 随机图片 */
+            var picURL = 'images/' + Url[Math.floor(Math.random() * Url.length)];
+            /* 列表元素的HTML字符串 */
+            var itemHTML = '<img src="' + picURL + '.png" width="44"/>';
+            /* 前插新列表元素 */
+            ptrContent.find('.Fimg').prepend(itemHTML);
+            /* 加载完毕需要重置 */
+            myApp.pullToRefreshDone();
+        }, 2000);
+    });
+//    回到顶部
+    $$('.page-content').on('scroll',function () {
+        var H = $$(this).scrollTop();
+        if( H > 1000){
+            $$('.GoTop').css('bottom','60px').transition(1000);
+        }else {
+            $$('.GoTop').css('bottom','0').transition(1000);
+        }
+    });
+    $$('.GoTop').on('click',function () {
+       $$('.page-content').scrollTop(0,1000);
+    });
 });
 //  SearchLocal页面初始化执行
 myApp.onPageInit('SearchLocal',function () {
@@ -130,7 +197,7 @@ myApp.onPageInit('SearchLocal',function () {
         $$(this).addClass("active");
     });
 
-    /* 动态加载音乐列表 */
+    /* 动态加载本地音乐列表 */
     $$.ajax({
         url:'music.json',
         dataType:'json',
@@ -155,9 +222,54 @@ myApp.onPageInit('SearchLocal',function () {
         }
     });
     /* 详情页面文字 */
-    $$('.grouppoint').on('click',function () {
+    $$(document).on('click','.grouppoint',function () {
         var Name = $$(this).prev().children('.group').html();
         $$('.popup-detail .setlist ul li').eq(0).html("歌曲： "+Name);
+    })
+});
+//  radioStation页面初始化执行
+myApp.onPageInit('radioStation',function () {
+    /*   无限滚动   */
+    var loading = false;  // 加载flag
+    var lastIndex = $$('.infinimg li').length;  // 上次加载的序号
+    var maxItems = 15;  // 最多可加载的条目
+    var itemsPerLoad = 4;  // 每次加载添加多少条目
+    // 注册'infinite'事件处理函数
+    $$('.infinite-scroll').on('infinite', function () {
+        // 如果正在加载，则退出
+        if (loading) return;
+        // 设置flag
+        loading = true;
+        // 模拟1s的加载过程
+        setTimeout(function () {
+            loading = false;  // 重置加载flag
+            if (lastIndex >= maxItems) {
+                myApp.detachInfiniteScroll($$('.infinite-scroll'));   // 加载完毕，则注销无限加载事件，以防不必要的加载
+                $$('.infinite-scroll-preloader').remove();   // 删除加载提示符
+                return;
+            }
+            if(maxItems - lastIndex < itemsPerLoad){
+                itemsPerLoad = maxItems - lastIndex;
+            }
+            var html = '';   // 生成新条目的HTML
+            for (var i = lastIndex + 1; i <= lastIndex + itemsPerLoad; i++) {
+                var STr = 'images/infin'+ i +'.png';
+                html += '<li class=""><div class=""><div class=""><img data-src="' + STr + '" class=" lazy lazy-fadeIn" src="' + STr + '"></div></div></li>';
+            }
+            $$('.list-block ul').append(html);   // 添加新条目
+            lastIndex = $$('.infinimg li').length;   // 更新最后加载的序号
+        }, 1000);
+    });
+});
+//  shopping页面初始化执行
+myApp.onPageInit('shopping',function () {
+    $$('.buttons-row .tab-link').on('click',function () {
+        var Dis = $$('.shop').css('display');
+        if(Dis == 'none'){
+            $$('.navbar-fixed .toolbar').css('display','block');
+        }else {
+            $$('.navbar-fixed .toolbar').css('display','none');
+        }
     })
 });
 mainView.router.load({
@@ -284,3 +396,22 @@ $$('.historydisplay').on('click',function () {
     $$('.historydisplay').hide();
 });
 
+/* 播放音乐动画 */
+var Deg = 0;
+function play() {
+    Deg++;
+    $$('.Playmusic img').css({transform:'rotate('+ Deg +'deg)'});
+}
+var Rotate = '';
+var target = false;
+$$('.PlayMusic').on('click',function () {
+    if(target == false){
+        $$('.playdirection img').css({transform:'rotate(35deg)',transformOrigin:"0 0"});
+        Rotate = setInterval('play()',10);
+        target = true;
+    }else{
+        clearInterval(Rotate);
+        $$('.playdirection img').css({transform:'rotate(0deg)',transformOrigin:"0 0"});
+        target = false;
+    }
+});
