@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>comment</title>
+    <link href="css/framework7.ios.min.css" rel="stylesheet">
+    <link href="css/framework7.ios.colors.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/my-app.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-inner commentnav">
+            <div class="left">
+                <a href="#" class="back">
+                    <img src="images/back.png">
+                </a>
+                <span>评论（16385）</span>
+            </div>
+        </div>
+    </div>
+    <div class="pages navbar-through toolbar-fixed">
+        <div class="page" data-page="comment">
+            <div class="page-content">
+                <div class="commenttitle">
+                    <img src="images/chen.png" class="star">
+                    <div class="musicdetail">
+                        <span class="musicname">婚礼的祝福</span>
+                        <span class="musician">陈奕迅</span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <p class="commentlist">精彩评论</p>
+                <div class="comment">
+                    <div class="CommentContent">
+                        <div class="CommentTop">
+                            <img src="images/friend1.png">
+                            <div class="observer">
+                                <span class="ObserverName">咪咕咪咕</span>
+                                <span class="ObserverTime">2017年10月20日</span>
+                            </div>
+                            <div class="Good">
+                                <span>13125</span>
+                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                <!--<img src="images/good1.png">-->
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="CommentCenter">
+                            虽然题目写的是“transform中的Matrix”，实际上，在CSS3以及HTML5的世界里，
+                            这玩意还是涉猎蛮广的，如SVG以及canvas.事实上，关于矩阵，我之前曾经介绍过，
+                            是在介绍IE浏览器下的Matrix矩阵滤镜的时候说过，IE的滤镜矩阵与CSS中的矩阵
+                            虽然写法上差异较大，但是，矩阵计算的原来是一致的。只是之前的介绍主要是IE
+                            下的旋转与缩放，同时也不是很深入，因此还有有些局限的。
+                        </div>
+                    </div>
+                    <div class="CommentContent">
+                        <div class="CommentTop">
+                            <img src="images/friend2.png">
+                            <div class="observer">
+                                <span class="ObserverName">小咪</span>
+                                <span class="ObserverTime">2017年10月21日</span>
+                            </div>
+                            <div class="Good">
+                                <span>16255</span>
+                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                <!--<img src="images/good1.png">-->
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="CommentCenter">
+                            效果只是表象的，我想到了一个更好的idea去表现矩阵到底是如何变换的，您可以
+                            狠狠地点击这里：matrix分解变换演示为了提高性能，demo中每个单元分解成了
+                            5px * 5px的区域。演示分两步，先是演示每个单元的位置是如何计算的，接着动
+                            画表现其位置的偏移。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="toolbar">
+                <div class="toolbar-inner">
+                    <input class="review" type="text" placeholder="写评论">
+                    <button class="send" type="button">发送</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="js/framework7.min.js"></script>
+<script src="js/my-app.js"></script>
+    <script>
+        var target = false;
+        $$('.Good').on('click',function () {
+            if( target == false){
+                $$(this).children('span').css('color','#d33a31');
+                $$(this).children('i').css('color','#d33a31');
+                target = true;
+            }else{
+                $$(this).children('span').css('color','#939495');
+                $$(this).children('i').css('color','#939495');
+                target = false;
+            }
+        })
+    </script>
+</body>
+</html>

@@ -307,7 +307,7 @@ html.ios-gt-8 .modal-title{ font-weight: normal;}
 .next{ width: 22px; height: 22px; background: url("../images/next.png") no-repeat;}
 .toolleft{ font-size: 0;}
 .toolright{ font-size: 0;}
-.MusicScroll{ position: fixed; bottom: 94px; width: 100%; text-align: center; background: #635d51;}
+.MusicScroll{ position: fixed; bottom: 94px; width: 100%; text-align: center; background: #635d51; height: 28px;}
 .PlayTop{ margin-bottom: 26px; position: relative; border-top: 1px solid #96928a;}
 .PlaySet{ margin: 0; padding: 0 35px;}
 .PlaySet li{ text-align: center;}
@@ -323,6 +323,19 @@ html.ios-gt-8 .modal-title{ font-weight: normal;}
 .Playing{ float: left; width: 75%;}
 .HistoryList{ width: 100%; height: 100%; overflow: auto;}
 .HistoryContent{ width: 100%; height: 100%; position: relative; overflow: hidden;}
+.range{ width: 70%; height: 2px; outline: none; background: linear-gradient(to right,#d33a31,#d33a31) no-repeat; background-size: 0 100%; background-color: #96928a; -webkit-appearance: none; -moz-appearance: none; appearance: none;}
+input[type="range"]::-webkit-slider-thumb {
+    /*::-webkit-slider-thumb是代表给滑块的样式进行变更*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; /*//这三个是去掉滑块原有的默认样式，划重点！！*/
+    -webkit-box-shadow:0 0 2px ; /*设置滑块的阴影*/
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    /*//这几个是设置滑块的样式*/
+}
 /* shopping */
 .category{ height: 100%; overflow: hidden;}
 .category .Left{ width: 25%; float: left; height: 100%; overflow: auto;}
@@ -332,9 +345,35 @@ html.ios-gt-8 .modal-title{ font-weight: normal;}
 .LeftList li a.active{ background: #fff;}
 .category .Right{ width: 75%; float: right; background: #fff; height: 100%; overflow: auto;}
 .Right .tab{ padding-left: 15px; height: 650px;}
-.shop{ height: 100%; overflow: hidden;}
+.shop{ height: 100%; /*overflow: hidden;*/}
 .tabs{ height: 100%;}
 .navbar-fixed .toolbar{ top: 82px; display: none;}
 .navbar-fixed .toolbar .toolbar-inner{ overflow: auto;}
 .shop{ padding-top: 50px;}
-.toolbar-fixed .page-content{ padding-bottom: 0;}
+/*.toolbar-fixed .page-content{ padding-bottom: 0;}*/
+/* comment */
+.commentnav{ padding: 0 8px;}
+.commentnav img{ width: 20px; height: 18px; padding: 0 10px;}
+.commentnav span{ padding-left: 10px; font-size: 14px;}
+.commenttitle{ margin-top: 12px; padding:0 15px; margin-right: 15px; background: url("../images/goto.png") no-repeat right;}
+.commenttitle img{ float: left;}
+.commenttitle .musicdetail{ float: left; padding-top: 3px;}
+.musicdetail span{ display: block; padding: 10px 0 0 15px;}
+.musicname{ font-size: 14px; color: #333;}
+.musician{ font-size: 12px; color: #666666;}
+.commentlist{ font-size: 12px; color: #666666; padding: 0 15px; line-height: 30px; background: #e7e9e9;}
+.CommentTop>img{ float: left; width: 35px; height: 35px; border-radius: 50%;}
+.CommentTop .observer{ float: left;}
+.Good{ float: right;}
+.observer span{ padding-left: 12px; display: block;}
+.observer .ObserverName{ font-size: 14px; color: #666;}
+.observer .ObserverTime{ font-size: 12px; color: #919293;}
+.CommentContent{ padding: 15px 0 0 15px;}
+.CommentTop{ padding-right: 15px;}
+.Good span{ font-size: 12px; color: #939495; padding-right: 5px;}
+.Good i{ font-size: 16px; color: #939495;}
+.CommentCenter{ margin: 10px 0 0 45px; border-bottom: 1px solid #e6e8e9; font-size: 14px; line-height: 25px; padding-right: 15px; padding-bottom: 10px;}
+.commentopen{ float: none; display: inline-block;}
+.popup-play .commentopen img{ padding: 0; width: 35px; height: 23px;}
+.review{ height: 30px; padding-left: 10px; border: none; border-bottom: 1px solid #ccc; width: 80%; color: #ccc;}
+.send{ background: none; border: none; color: #ccc;}

@@ -272,7 +272,101 @@ myApp.onPageInit('shopping',function () {
         }
     })
 });
-mainView.router.load({
+//  muisicList页面初始化执行
+myApp.onPageInit('musicList',function () {
+    $$.getJSON('music.json', function (data) {
+        /* 虚拟化列表 */
+        var myList = myApp.virtualList('.list-block.virtual-list',{
+            items: data,
+            renderItem: function (index,item) {
+                    return '<li>'+ item.Title +'</li>';
+            }
+            // search all items, we need to return array with indexes of matched items
+            /*searchAll: function (query, items) {
+                var foundItems = [];
+                for (var i = 0; i < items.length; i++) {
+                    // Check if title contains query string
+                    if (items[i].title.indexOf(query.trim()) >= 0) foundItems.push(i);
+                }
+                // Return array with indexes of matched items
+                return foundItems;
+            }*/
+        })
+    });
+});
+//  comment页面初始化执行
+myApp.onPageInit('comment',function () {
+    /* 点赞变红色再次点击取消点赞 */
+    var target = false;
+    $$('.comment').on('click','.Good',function () {
+        if( target == false){
+            $$(this).children('span').css('color','#d33a31');
+            $$(this).children('i').css('color','#d33a31');
+            target = true;
+        }else{
+            $$(this).children('span').css('color','#939495');
+            $$(this).children('i').css('color','#939495');
+            target = false;
+        }
+    });
+    /* 返回之前页面 */
+    $$('.back').on('click',function () {
+        $$('.pages').next().css('display','block');
+        $$('.popup-play').css('display','block');
+        $$('.popup-overlay').css('display','block');
+    });
+    /* ajax获取评论中的数据 */
+    $$.ajax({
+        url:'comment.json',
+        method:'get',
+        dataType:'json',
+        success:success
+    });
+    /* 获取评论数据成功所执行的函数，添加所获取的数据到页面中 */
+    function success(data,index) {
+        $$('.send').on('click',function () {
+            var date = new Date();
+            var year = date.getFullYear(),
+                month = date.getMonth()+1,
+                day = date.getDate(),
+                hours = date.getHours(),
+                minutes = date.getMinutes();
+            if(day.toString().length<2){
+                day = '0'+day;
+            }
+            if(minutes.toString().length<2){
+                minutes = '0'+minutes;
+            }
+            var time = year + '年' + month + '月' + day + "日" + ' ' + hours + ' : ' + minutes;
+            var Htm = $$('.review').val();
+            var index = Math.floor(Math.random()*data.length);   /* 随机获取数据长度以内的数据 */
+            var Str = '<div class="CommentContent">' +
+                '<div class="CommentTop">' +
+                '<img src="' + data[index].img + '">' +
+                '<div class="observer">' +
+                '<span class="ObserverName">'+ data[index].name +'</span>' +
+                '<span class="ObserverTime">'+ time +'</span>' +
+                '</div>' +
+                '<div class="Good">' +
+                '<span>'+ data[index].good +'</span>' +
+                '<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>' +
+                '</div>' +
+                '<div class="clear"></div>' +
+                '</div>' +
+                '<div class="CommentCenter">' + Htm +
+                '</div></div>';
+            $$('.comment').prepend(Str);    /* 添加新评论 */
+            $$('.review').val('');    /* 添加完成后清空评论框中的内容 */
+        });
+    }
+});
+//  当评论页面加载时把工具栏变为固定布局，使评论页面的导航栏出现
+$$(document).on('pageBeforeInit','.page[data-page="comment"]',function () {
+    $$('.pages').removeClass('toolbar-through').addClass('toolbar-fixed');
+    $$('.pages').next().css('display','none');
+});
+//   页面加载开始将wyy页面加载到页面中
+mainView.router.load({   /* 将一个页面加载到当前视图中 */
     url:'wyy.html',
     animatePages: false
 });
@@ -314,6 +408,7 @@ function createContentPage() {
 	return;
 }
 
+//  二级菜单选中变为红色
 $$(".buttons-row .button").on("click",function () {
     $$(".buttons-row .button").removeClass("active");
     $$(this).addClass("active");
@@ -339,17 +434,11 @@ $$('.collect').on('click',function () {
 $$('.AddList').on('click',function () {
     var modal_over ='<div class="Modal-Up"></div>';
     $$('body').append(modal_over);
-    /*$$('.Modal-Up').css('display','block');*/
    var modal =  myApp.modal({
        title:'新建歌单',
        text:'<input class="Text" type="text" placeholder="请输入歌单标题">'+
        '0/40'+'<span><input class="Check" type="checkbox"><label>设置为隐私菜单</label></span>'+
        '<div class="ButtonGroup"><span class="Submit Btn">提交</span><span class="Close Btn">取消</span></div>'
-       /*buttons:[{
-           text:'提交'
-       },{
-           text:'取消'
-       }]*/
    });
     var DisPlay = $$('.modal').css('block');
     if(DisPlay == 'block'){
@@ -392,7 +481,6 @@ $$('.MenuList').on('click',function () {
 });
 $$('.historydisplay').on('click',function () {
     $$('.History').animate({bottom:'-400'},50);
-    /*$$('.History').css('bottom','-400px');*/
     $$('.historydisplay').hide();
 });
 
@@ -402,16 +490,59 @@ function play() {
     Deg++;
     $$('.Playmusic img').css({transform:'rotate('+ Deg +'deg)'});
 }
-var Rotate = '';
+/* 打开音乐播放滚动条自动前进 */
+var max = $$('.range').attr('max'),
+    min = $$('.range').attr('min');
+function progress() {
+    var val = $$('.range').val();
+    $$('.range').touchmove(function () {
+        var max = $$('.range').attr('max'),
+            min = $$('.range').attr('min'),
+            val = $$('.range').val();
+        var cont = Math.ceil((val-min)/(max-min)*100) + '%';
+        $$('.range').css('background-size',cont + ' 100%');
+        $$('.range').val(val);
+    });
+    val++;
+    $$('.range').val(val);
+    var cont = Math.ceil((val-min)/(max-min)*100) + '%';
+    $$('.range').css('background-size',cont + ' 100%');
+}
+var Rotate = '',Progress = '';
 var target = false;
 $$('.PlayMusic').on('click',function () {
     if(target == false){
         $$('.playdirection img').css({transform:'rotate(35deg)',transformOrigin:"0 0"});
         Rotate = setInterval('play()',10);
+        Progress = setInterval('progress()',1000);
         target = true;
     }else{
         clearInterval(Rotate);
+        clearInterval(Progress);
         $$('.playdirection img').css({transform:'rotate(0deg)',transformOrigin:"0 0"});
         target = false;
     }
 });
+/* 点击评论，打开评论页面 */
+$$('.commentopen').on('click',function () {
+    $$('.popup-play').hide();
+    $$('.popup-overlay').hide();
+});
+/* 拖拽进度条划过的部分颜色改变 */
+$$('.range').touchmove(function () {
+    var max = $$('.range').attr('max'),
+        min = $$('.range').attr('min'),
+        val = $$('.range').val();
+    var cont = Math.ceil((val-min)/(max-min)*100) + '%';
+    $$('.range').css('background-size',cont + ' 100%');
+});
+/* store.js存储数据 */
+$$.ajax({
+    url:'comment.json',
+    method:'get',
+    dataType:'json',
+    success:function (data) {
+        store.set('user',data);
+    }
+});
+console.log(store.get('user'));

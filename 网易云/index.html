@@ -8,6 +8,7 @@
     <title>index</title>
     <link href="css/framework7.ios.min.css" rel="stylesheet">
     <link href="css/framework7.ios.colors.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/my-app.css" rel="stylesheet">
 </head>
 <body>
@@ -445,7 +446,7 @@
                     <ul class="PlaySet row">
                         <li class="col-25"><img src="images/collection.png"></li>
                         <li class="col-25"><img src="images/dowload.png"></li>
-                        <li class="col-25"><img src="images/comment.png"></li>
+                        <li class="col-25"><a href="comment.html" class="commentopen"><img src="images/comment.png"></a></li>
                         <li class="col-25"><img src="images/moreset.png"></li>
                     </ul>
                 </div>
@@ -453,7 +454,8 @@
 
                 </div>
                 <div class="MusicScroll">
-                    <img src="images/MusicScroll.png" class="time scroll">
+                    <input type="range" class="range" max="50" min="10" step="1" value="0">
+                    <!--<img src="images/MusicScroll.png" class="time scroll">-->
                 </div>
             </div>
         </div>
@@ -624,7 +626,8 @@
        </div>
     </div>
 </div>
-<script src="js/framework7.min.js"></script>
+<script src="js/framework7.js"></script>
+<script src="js/store.legacy.min.js"></script>
 <script src="js/my-app.js"></script>
 </body>
 </html>
