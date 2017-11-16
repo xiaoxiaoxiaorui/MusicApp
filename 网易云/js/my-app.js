@@ -522,6 +522,14 @@ $$('.PlayMusic').on('click',function () {
         $$('.playdirection img').css({transform:'rotate(0deg)',transformOrigin:"0 0"});
         target = false;
     }
+    var media=document.getElementById('MusicFile');
+    console.dir(media)
+    alert(media.duration)
+    if(media.paused){
+        media.play();
+    }else{
+        media.pause();
+    }
 });
 /* 点击评论，打开评论页面 */
 $$('.commentopen').on('click',function () {
@@ -545,4 +553,3 @@ $$.ajax({
         store.set('user',data);
     }
 });
-console.log(store.get('user'));

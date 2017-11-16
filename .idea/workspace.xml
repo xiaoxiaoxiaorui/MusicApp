@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cef92c53-c77f-4f1e-91bb-7b4621775fdb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/网易云/index.html" afterPath="$PROJECT_DIR$/网易云/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/网易云/js/my-app.js" afterPath="$PROJECT_DIR$/网易云/js/my-app.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/网易云/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1518">
+              <caret line="470" column="40" lean-forward="false" selection-start-line="470" selection-start-column="31" selection-end-line="470" selection-end-column="40" />
+              <folding>
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="framework7.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/网易云/js/framework7.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="4680" column="93" lean-forward="false" selection-start-line="4680" selection-start-column="93" selection-end-line="4680" selection-end-column="93" />
+              <folding>
+                <element signature="e#2363#10223#0" expanded="false" />
+                <element signature="e#10505#18191#0" expanded="false" />
+                <element signature="e#18641#27175#0" expanded="false" />
+                <element signature="e#27207#28154#0" expanded="false" />
+                <element signature="e#28171#28330#0" expanded="false" />
+                <element signature="e#28347#28507#0" expanded="false" />
+                <element signature="e#28527#28690#0" expanded="false" />
+                <element signature="e#28705#32339#0" expanded="false" />
+                <element signature="e#32356#57426#0" expanded="false" />
+                <element signature="e#57733#58214#0" expanded="false" />
+                <element signature="e#58267#58302#0" expanded="false" />
+                <element signature="e#58350#63596#0" expanded="false" />
+                <element signature="e#63614#63768#0" expanded="false" />
+                <element signature="e#63786#64325#0" expanded="false" />
+                <element signature="e#64403#80205#0" expanded="false" />
+                <element signature="e#86302#86505#0" expanded="false" />
+                <element signature="e#86818#86986#0" expanded="false" />
+                <element signature="e#87059#87279#0" expanded="false" />
+                <element signature="e#87531#119805#0" expanded="false" />
+                <element signature="e#119866#119924#0" expanded="false" />
+                <element signature="e#119981#121657#0" expanded="false" />
+                <element signature="e#121995#123723#0" expanded="false" />
+                <element signature="e#123864#124617#0" expanded="false" />
+                <element signature="e#124693#124820#0" expanded="false" />
+                <element signature="e#124898#124947#0" expanded="false" />
+                <element signature="e#125013#126540#0" expanded="false" />
+                <element signature="e#126626#131707#0" expanded="false" />
+                <element signature="e#131818#132017#0" expanded="false" />
+                <element signature="e#132081#132618#0" expanded="false" />
+                <element signature="e#132684#132885#0" expanded="false" />
+                <element signature="e#132951#133530#0" expanded="false" />
+                <element signature="e#133773#147522#0" expanded="false" />
+                <element signature="e#147577#147641#0" expanded="false" />
+                <element signature="e#147692#148405#0" expanded="false" />
+                <element signature="e#148650#153209#0" expanded="false" />
+                <element signature="e#153265#153330#0" expanded="false" />
+                <element signature="e#153390#154095#0" expanded="false" />
+                <element signature="e#154371#154602#0" expanded="false" />
+                <element signature="e#154715#156900#0" expanded="false" />
+                <element signature="e#157222#158813#0" expanded="false" />
+                <element signature="e#158921#159226#0" expanded="false" />
+                <element signature="e#159427#159552#0" expanded="false" />
+                <element signature="e#159641#160160#0" expanded="false" />
+                <element signature="e#160259#163543#0" expanded="false" />
+                <element signature="e#163619#164724#0" expanded="false" />
+                <element signature="e#164791#166363#0" expanded="false" />
+                <element signature="e#166430#170605#0" expanded="false" />
+                <element signature="e#170710#172868#0" expanded="false" />
+                <element signature="e#172920#173383#0" expanded="false" />
+                <element signature="e#173445#174030#0" expanded="false" />
+                <element signature="e#176270#176949#0" expanded="false" />
+                <element signature="e#177095#177776#0" expanded="false" />
+                <element signature="e#177165#177760#0" expanded="false" />
+                <element signature="e#177920#181281#0" expanded="false" />
+                <element signature="e#182771#186788#0" expanded="false" />
+                <element signature="e#187939#188151#0" expanded="false" />
+                <element signature="e#205291#207675#0" expanded="false" />
+                <element signature="e#207738#224820#0" expanded="false" />
+                <element signature="e#224873#228910#0" expanded="false" />
+                <element signature="e#228986#234702#0" expanded="false" />
+                <element signature="e#235032#235142#0" expanded="false" />
+                <element signature="e#235182#237526#0" expanded="false" />
+                <element signature="e#237583#237994#0" expanded="false" />
+                <element signature="e#238069#238646#0" expanded="false" />
+                <element signature="e#238720#239761#0" expanded="false" />
+                <element signature="e#239839#241313#0" expanded="false" />
+                <element signature="e#241394#242555#0" expanded="false" />
+                <element signature="e#242602#242892#0" expanded="false" />
+                <element signature="e#242934#242993#0" expanded="false" />
+                <element signature="e#243035#243357#0" expanded="false" />
+                <element signature="e#243399#243494#0" expanded="false" />
+                <element signature="e#243578#248766#0" expanded="false" />
+                <element signature="e#248856#259042#0" expanded="false" />
+                <element signature="e#259106#260117#0" expanded="false" />
+                <element signature="e#260187#261243#0" expanded="false" />
+                <element signature="e#261298#261805#0" expanded="false" />
+                <element signature="e#261858#266438#0" expanded="false" />
+                <element signature="e#266492#271058#0" expanded="false" />
+                <element signature="e#271368#272264#0" expanded="false" />
+                <element signature="e#272334#273826#0" expanded="false" />
+                <element signature="e#273879#274570#0" expanded="false" />
+                <element signature="e#274631#274976#0" expanded="false" />
+                <element signature="e#275248#277549#0" expanded="false" />
+                <element signature="e#277596#279306#0" expanded="false" />
+                <element signature="e#279543#282586#0" expanded="false" />
+                <element signature="e#282811#297618#0" expanded="false" />
+                <element signature="e#305353#315051#0" expanded="false" />
+                <element signature="e#315105#315169#0" expanded="false" />
+                <element signature="e#315227#315891#0" expanded="false" />
+                <element signature="e#316281#331669#0" expanded="false" />
+                <element signature="e#331727#333851#0" expanded="false" />
+                <element signature="e#333905#335756#0" expanded="false" />
+                <element signature="e#335811#337113#0" expanded="false" />
+                <element signature="e#337410#337914#0" expanded="false" />
+                <element signature="e#337972#338290#0" expanded="false" />
+                <element signature="e#338349#338672#0" expanded="false" />
+                <element signature="e#338713#344186#0" expanded="false" />
+                <element signature="e#344485#347120#0" expanded="false" />
+                <element signature="e#347190#347821#0" expanded="false" />
+                <element signature="e#347886#371647#0" expanded="false" />
+                <element signature="e#371945#392541#0" expanded="false" />
+                <element signature="e#392629#392695#0" expanded="false" />
+                <element signature="e#392763#393141#0" expanded="false" />
+                <element signature="e#393394#402394#0" expanded="false" />
+                <element signature="e#402458#402875#0" expanded="false" />
+                <element signature="e#402933#403362#0" expanded="false" />
+                <element signature="e#403433#403831#0" expanded="false" />
+                <element signature="e#404119#405473#0" expanded="false" />
+                <element signature="e#405536#405614#0" expanded="false" />
+                <element signature="e#405678#405757#0" expanded="false" />
+                <element signature="e#405830#406316#0" expanded="false" />
+                <element signature="e#406598#411928#0" expanded="false" />
+                <element signature="e#411991#412354#0" expanded="false" />
+                <element signature="e#412621#413631#0" expanded="false" />
+                <element signature="e#413695#414512#0" expanded="false" />
+                <element signature="e#414565#414631#0" expanded="false" />
+                <element signature="e#414931#419455#0" expanded="false" />
+                <element signature="e#419732#419940#0" expanded="false" />
+                <element signature="e#419986#421153#0" expanded="false" />
+                <element signature="e#421200#422308#0" expanded="false" />
+                <element signature="e#422668#445150#0" expanded="false" />
+                <element signature="e#445465#461753#0" expanded="false" />
+                <element signature="e#462072#462292#0" expanded="false" />
+                <element signature="e#462364#462589#0" expanded="false" />
+                <element signature="e#462634#462692#0" expanded="false" />
+                <element signature="e#462738#462958#0" expanded="false" />
+                <element signature="e#462993#463241#0" expanded="false" />
+                <element signature="e#463287#463509#0" expanded="false" />
+                <element signature="e#463548#463704#0" expanded="false" />
+                <element signature="e#464045#464279#0" expanded="false" />
+                <element signature="e#464328#464764#0" expanded="false" />
+                <element signature="e#464420#464525#0" expanded="false" />
+                <element signature="e#464635#464754#0" expanded="false" />
+                <element signature="e#464810#465117#0" expanded="false" />
+                <element signature="e#465160#467251#0" expanded="false" />
+                <element signature="e#467347#469704#0" expanded="false" />
+                <element signature="e#469816#471127#0" expanded="false" />
+                <element signature="e#471502#472715#0" expanded="false" />
+                <element signature="e#473023#473557#0" expanded="false" />
+                <element signature="e#473611#474233#0" expanded="false" />
+                <element signature="e#474299#474904#0" expanded="false" />
+                <element signature="e#474971#475200#0" expanded="false" />
+                <element signature="e#475454#476473#0" expanded="false" />
+                <element signature="e#476715#478891#0" expanded="false" />
+                <element signature="e#479175#480106#0" expanded="false" />
+                <element signature="e#480157#483933#0" expanded="false" />
+                <element signature="e#484224#485908#0" expanded="false" />
+                <element signature="e#485966#486383#0" expanded="false" />
+                <element signature="e#486622#507513#0" expanded="false" />
+                <element signature="e#507913#539717#0" expanded="false" />
+                <element signature="e#521037#522682#0" expanded="false" />
+                <element signature="e#522766#523706#0" expanded="false" />
+                <element signature="e#523809#524021#0" expanded="false" />
+                <element signature="e#524076#525592#0" expanded="false" />
+                <element signature="e#525641#533487#0" expanded="false" />
+                <element signature="e#533575#533879#0" expanded="false" />
+                <element signature="e#533932#534242#0" expanded="false" />
+                <element signature="e#534317#534493#0" expanded="false" />
+                <element signature="e#534581#537797#0" expanded="false" />
+                <element signature="e#537834#538546#0" expanded="false" />
+                <element signature="e#538629#539382#0" expanded="false" />
+                <element signature="e#539462#539509#0" expanded="false" />
+                <element signature="e#539764#539820#0" expanded="false" />
+                <element signature="e#540046#568535#0" expanded="false" />
+                <element signature="e#568856#618786#0" expanded="false" />
+                <element signature="e#619161#625487#0" expanded="false" />
+                <element signature="e#625544#626617#0" expanded="false" />
+                <element signature="e#626894#630284#0" expanded="false" />
+                <element signature="e#630344#630715#0" expanded="false" />
+                <element signature="e#630900#631678#0" expanded="false" />
+                <element signature="e#631905#632121#0" expanded="false" />
+                <element signature="e#632188#632472#0" expanded="false" />
+                <element signature="e#632551#632929#0" expanded="false" />
+                <element signature="e#633024#633411#0" expanded="false" />
+                <element signature="e#633640#635978#0" expanded="false" />
+                <element signature="e#636291#636992#0" expanded="false" />
+                <element signature="e#637142#641105#0" expanded="false" />
+                <element signature="e#641379#818259#0" expanded="false" />
+                <element signature="e#818423#822501#0" expanded="false" />
+                <marker date="1508811431818" expanded="true" signature="306240:306272" ph="..." />
+                <marker date="1508811431818" expanded="true" signature="369917:369924" ph="..." />
+                <marker date="1508811431818" expanded="true" signature="429911:430063" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wyy.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/网易云/wyy.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1430">
+              <caret line="65" column="46" lean-forward="false" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
+              <folding>
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#8;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#9;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shopping.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/网易云/shopping.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1188">
+              <caret line="228" column="38" lean-forward="false" selection-start-line="228" selection-start-column="38" selection-end-line="228" selection-end-column="38" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#7;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-app.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/网易云/css/my-app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7546">
+              <caret line="343" column="36" lean-forward="false" selection-start-line="343" selection-start-column="36" selection-end-line="343" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="musicList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/网易云/musicList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/网易云/js/my-app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4026">
+              <caret line="526" column="24" lean-forward="false" selection-start-line="526" selection-start-column="24" selection-end-line="526" selection-end-column="24" />
+              <folding>
+                <element signature="e#2042#2742#0" expanded="false" />
+                <element signature="e#2784#2831#0" expanded="false" />
+                <element signature="e#2898#3598#0" expanded="false" />
+                <element signature="e#3663#3768#0" expanded="false" />
+                <element signature="e#3830#4916#0" expanded="false" />
+                <element signature="e#4985#7573#0" expanded="false" />
+                <element signature="e#7644#8973#0" expanded="false" />
+                <element signature="e#9036#9332#0" expanded="false" />
+                <element signature="e#9398#10208#0" expanded="false" />
+                <element signature="e#10269#12720#0" expanded="false" />
+                <element signature="e#13202#13348#0" expanded="false" />
+                <element signature="n#!!block;n#createContentPage#0" expanded="false" />
+                <element signature="e#15131#16414#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/网易云/comment.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/网易云/comment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1694">
+              <caret line="77" column="38" lean-forward="false" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="music.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/网易云/music.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ListMusic</find>
+      <find>Music_List</find>
+      <find>sub$$</find>
+      <find>popup-local</find>
+      <find>ClosePop</find>
+      <find>LocalSearch</find>
+      <find>grouppoint</find>
+      <find>Toggle</find>
+      <find>.grouppoint</find>
+      <find>ball-clip-rotate</find>
+      <find>searchResult</find>
+      <find>commentopen</find>
+      <find>popup-play</find>
+      <find>col11</find>
+      <find>Column</find>
+      <find>imagesLazyLoadPlaceholder</find>
+      <find>aj</find>
+      <find>each</find>
+      <find>Searchbar</find>
+      <find>PlayMusic</find>
+      <find>pTotal</find>
+      <find>data-page</find>
+      <find>filter</find>
+      <find>content</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SearchLocal.html" />
+        <option value="$PROJECT_DIR$/网易云/myMusic.html" />
+        <option value="$PROJECT_DIR$/网易云/SearchLocal.html" />
+        <option value="$PROJECT_DIR$/网易云/myMusicNav.html" />
+        <option value="$PROJECT_DIR$/网易云/music.json" />
+        <option value="$PROJECT_DIR$/网易云/radioStation.html" />
+        <option value="$PROJECT_DIR$/网易云/friends.html" />
+        <option value="$PROJECT_DIR$/网易云/scrollbar.html" />
+        <option value="$PROJECT_DIR$/shopping.html" />
+        <option value="$PROJECT_DIR$/网易云/recommend.html" />
+        <option value="$PROJECT_DIR$/网易云/musicList.html" />
+        <option value="$PROJECT_DIR$/网易云/wyy.html" />
+        <option value="$PROJECT_DIR$/网易云/comment.html" />
+        <option value="$PROJECT_DIR$/网易云/comment.json" />
+        <option value="$PROJECT_DIR$/网易云/shopping.html" />
+        <option value="$PROJECT_DIR$/网易云/css/my-app.css" />
+        <option value="$PROJECT_DIR$/网易云/js/framework7.js" />
+        <option value="$PROJECT_DIR$/网易云/index.html" />
+        <option value="$PROJECT_DIR$/网易云/js/my-app.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="网易云" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="网易云" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\我的项目\MusicApp\网易云" />
+      <recent name="E:\我的项目\MusicApp\网易云\js" />
+      <recent name="E:\我的项目\MusicApp\网易云\css" />
+      <recent name="E:\我的项目\MusicApp\网易云\images" />
+      <recent name="E:\我的项目\MusicApp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\我的项目\MusicApp\网易云" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cef92c53-c77f-4f1e-91bb-7b4621775fdb" name="Default" comment="" />
+      <created>1506416499596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506416499596</updated>
+      <workItem from="1506416501104" duration="4959000" />
+      <workItem from="1506476352606" duration="7276000" />
+      <workItem from="1506562819396" duration="20283000" />
+      <workItem from="1506649426690" duration="23789000" />
+      <workItem from="1506735721340" duration="12498000" />
+      <workItem from="1507514442926" duration="255000" />
+      <workItem from="1507515146540" duration="19824000" />
+      <workItem from="1507599273564" duration="9805000" />
+      <workItem from="1507691608881" duration="10137000" />
+      <workItem from="1507772690979" duration="7649000" />
+      <workItem from="1508117661597" duration="12325000" />
+      <workItem from="1508204389012" duration="20169000" />
+      <workItem from="1508290868396" duration="22464000" />
+      <workItem from="1508377607471" duration="20865000" />
+      <workItem from="1508463248908" duration="1164000" />
+      <workItem from="1508465666297" duration="21011000" />
+      <workItem from="1508722832922" duration="48000" />
+      <workItem from="1508722895470" duration="21846000" />
+      <workItem from="1508809619961" duration="2424000" />
+      <workItem from="1508815494267" duration="5822000" />
+      <workItem from="1508896559573" duration="3983000" />
+      <workItem from="1508983597501" duration="1741000" />
+      <workItem from="1509068807998" duration="2758000" />
+      <workItem from="1509328798744" duration="2606000" />
+      <workItem from="1509415163228" duration="1824000" />
+      <workItem from="1509500015322" duration="4372000" />
+      <workItem from="1509586771415" duration="612000" />
+      <workItem from="1509673142542" duration="615000" />
+      <workItem from="1509932613148" duration="611000" />
+      <workItem from="1510224322389" duration="450000" />
+      <workItem from="1510630978017" duration="6245000" />
+      <workItem from="1510657220171" duration="27000" />
+      <workItem from="1510713897377" duration="2465000" />
+      <workItem from="1510804670551" duration="146000" />
+    </task>
+    <task id="LOCAL-00001" summary="app框架">
+      <created>1506416635514</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1506416635514</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改pop-history的布局及popover-collector的位置">
+      <created>1506562945307</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1506562945307</updated>
+    </task>
+    <task id="LOCAL-00003" summary="增加自定义model弹出框">
+      <created>1506649716215</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1506649716215</updated>
+    </task>
+    <task id="LOCAL-00004" summary="上周修改，忘记改了什么？">
+      <created>1507514497557</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1507514497557</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改popup页面中搜索框的清空内容功能和样式">
+      <created>1507522980846</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1507522980846</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改本地音乐的加载方式及二级菜单的页面跳转问题">
+      <created>1507538648604</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1507538648604</updated>
+    </task>
+    <task id="LOCAL-00007" summary="播放列表页面用获取数据添加">
+      <created>1507599665184</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1507599665184</updated>
+    </task>
+    <task id="LOCAL-00008" summary="添加部分功能">
+      <created>1508465750668</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1508465750668</updated>
+    </task>
+    <task id="LOCAL-00009" summary="基本完成所需功能，还有待改善">
+      <created>1508840781718</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1508840781718</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="273068000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33406836" sideWeight="0.50632244" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32855567" sideWeight="0.49367756" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="app框架" />
+    <MESSAGE value="修改pop-history的布局及popover-collector的位置" />
+    <MESSAGE value="增加自定义model弹出框" />
+    <MESSAGE value="上周修改，忘记改了什么？" />
+    <MESSAGE value="修改popup页面中搜索框的清空内容功能和样式" />
+    <MESSAGE value="修改本地音乐的加载方式及二级菜单的页面跳转问题" />
+    <MESSAGE value="播放列表页面用获取数据添加" />
+    <MESSAGE value="添加部分功能" />
+    <MESSAGE value="基本完成所需功能，还有待改善" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本完成所需功能，还有待改善" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/网易云/wyy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="66" column="51" lean-forward="false" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="66" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/SearchLocal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/css/my-app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1936">
+          <caret line="88" column="13" lean-forward="false" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/js/my-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2042#2742#0" expanded="false" />
+            <element signature="e#2784#2831#0" expanded="false" />
+            <element signature="e#2898#3598#0" expanded="false" />
+            <element signature="e#3663#3768#0" expanded="false" />
+            <element signature="e#3830#4916#0" expanded="false" />
+            <element signature="e#4985#7573#0" expanded="false" />
+            <element signature="e#7644#8973#0" expanded="false" />
+            <element signature="e#9036#9332#0" expanded="false" />
+            <element signature="e#9398#10208#0" expanded="false" />
+            <element signature="e#10269#12720#0" expanded="false" />
+            <element signature="e#13202#13348#0" expanded="false" />
+            <element signature="n#!!block;n#createContentPage#0" expanded="false" />
+            <element signature="e#15131#16414#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/myMusic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="55" column="51" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="55" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="729" column="35" lean-forward="true" selection-start-line="729" selection-start-column="35" selection-end-line="729" selection-end-column="35" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/wyy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="66" column="51" lean-forward="false" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="66" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/SearchLocal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="49" column="10" lean-forward="true" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/css/my-app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1936">
+          <caret line="88" column="13" lean-forward="false" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/js/my-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2042#2742#0" expanded="false" />
+            <element signature="e#2784#2831#0" expanded="false" />
+            <element signature="e#2898#3598#0" expanded="false" />
+            <element signature="e#3663#3768#0" expanded="false" />
+            <element signature="e#3830#4916#0" expanded="false" />
+            <element signature="e#4985#7573#0" expanded="false" />
+            <element signature="e#7644#8973#0" expanded="false" />
+            <element signature="e#9036#9332#0" expanded="false" />
+            <element signature="e#9398#10208#0" expanded="false" />
+            <element signature="e#10269#12720#0" expanded="false" />
+            <element signature="e#13202#13348#0" expanded="false" />
+            <element signature="n#!!block;n#createContentPage#0" expanded="false" />
+            <element signature="e#15131#16414#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/myMusic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="55" column="51" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="55" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/wyy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="66" column="51" lean-forward="true" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="66" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/SearchLocal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/css/my-app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4510">
+          <caret line="205" column="43" lean-forward="false" selection-start-line="205" selection-start-column="43" selection-end-line="205" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/js/my-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="71" column="52" lean-forward="true" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="52" />
+          <folding>
+            <element signature="e#2042#2742#0" expanded="false" />
+            <element signature="e#2784#2831#0" expanded="false" />
+            <element signature="e#2898#3598#0" expanded="false" />
+            <element signature="e#3663#3768#0" expanded="false" />
+            <element signature="e#3830#4916#0" expanded="false" />
+            <element signature="e#4985#7573#0" expanded="false" />
+            <element signature="e#7644#8973#0" expanded="false" />
+            <element signature="e#9036#9332#0" expanded="false" />
+            <element signature="e#9398#10208#0" expanded="false" />
+            <element signature="e#10269#12720#0" expanded="false" />
+            <element signature="e#13202#13348#0" expanded="false" />
+            <element signature="n#!!block;n#createContentPage#0" expanded="false" />
+            <element signature="e#15131#16414#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/myMusic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="55" column="51" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="55" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7854">
+          <caret line="367" column="20" lean-forward="true" selection-start-line="367" selection-start-column="20" selection-end-line="367" selection-end-column="20" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/css/my-app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3806">
+          <caret line="173" column="8" lean-forward="true" selection-start-line="173" selection-start-column="8" selection-end-line="173" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/js/my-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2042#2742#0" expanded="false" />
+            <element signature="e#2784#2831#0" expanded="false" />
+            <element signature="e#2898#3598#0" expanded="false" />
+            <element signature="e#3663#3768#0" expanded="false" />
+            <element signature="e#3830#4916#0" expanded="false" />
+            <element signature="e#4985#7573#0" expanded="false" />
+            <element signature="e#7644#8973#0" expanded="false" />
+            <element signature="e#9036#9332#0" expanded="false" />
+            <element signature="e#9398#10208#0" expanded="false" />
+            <element signature="e#10269#12720#0" expanded="false" />
+            <element signature="e#13202#13348#0" expanded="false" />
+            <element signature="n#!!block;n#createContentPage#0" expanded="false" />
+            <element signature="e#15131#16414#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8206">
+          <caret line="383" column="7" lean-forward="false" selection-start-line="383" selection-start-column="7" selection-end-line="383" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/css/my-app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/js/my-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3058">
+          <caret line="139" column="64" lean-forward="false" selection-start-line="139" selection-start-column="64" selection-end-line="139" selection-end-column="64" />
+          <folding>
+            <element signature="e#2042#2742#0" expanded="false" />
+            <element signature="e#2784#2831#0" expanded="false" />
+            <element signature="e#2898#3598#0" expanded="false" />
+            <element signature="e#3663#3768#0" expanded="false" />
+            <element signature="e#3830#4916#0" expanded="false" />
+            <element signature="e#4985#7573#0" expanded="false" />
+            <element signature="e#7644#8973#0" expanded="false" />
+            <element signature="e#9036#9332#0" expanded="false" />
+            <element signature="e#9398#10208#0" expanded="false" />
+            <element signature="e#10269#12720#0" expanded="false" />
+            <element signature="e#13202#13348#0" expanded="false" />
+            <element signature="n#!!block;n#createContentPage#0" expanded="false" />
+            <element signature="e#15131#16414#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/css/my-app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3124">
+          <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/js/my-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2042#2742#0" expanded="false" />
+            <element signature="e#2784#2831#0" expanded="false" />
+            <element signature="e#2898#3598#0" expanded="false" />
+            <element signature="e#3663#3768#0" expanded="false" />
+            <element signature="e#3830#4916#0" expanded="false" />
+            <element signature="e#4985#7573#0" expanded="false" />
+            <element signature="e#7644#8973#0" expanded="false" />
+            <element signature="e#9036#9332#0" expanded="false" />
+            <element signature="e#9398#10208#0" expanded="false" />
+            <element signature="e#10269#12720#0" expanded="false" />
+            <element signature="e#13202#13348#0" expanded="false" />
+            <element signature="n#!!block;n#createContentPage#0" expanded="false" />
+            <element signature="e#15131#16414#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/images/play.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/myMusic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="93" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/myMusicNav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/SearchLocal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2278">
+          <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/Administrator/Desktop/46891432120759703/21770/loaders.css" />
+    <entry file="file://E:/js插件/loading加载动画/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="34" column="12" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="34" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/js插件/loading加载动画/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/js插件/loading加载动画/loaders.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="213" column="0" lean-forward="true" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/radioStation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="66" lean-forward="false" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/friends.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="6" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/scrollbar.html" />
+    <entry file="file://$PROJECT_DIR$/网易云/recommend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/js/store.legacy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/js/store.legacy.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/comment.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/music.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/js/my-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4026">
+          <caret line="526" column="24" lean-forward="false" selection-start-line="526" selection-start-column="24" selection-end-line="526" selection-end-column="24" />
+          <folding>
+            <element signature="e#2042#2742#0" expanded="false" />
+            <element signature="e#2784#2831#0" expanded="false" />
+            <element signature="e#2898#3598#0" expanded="false" />
+            <element signature="e#3663#3768#0" expanded="false" />
+            <element signature="e#3830#4916#0" expanded="false" />
+            <element signature="e#4985#7573#0" expanded="false" />
+            <element signature="e#7644#8973#0" expanded="false" />
+            <element signature="e#9036#9332#0" expanded="false" />
+            <element signature="e#9398#10208#0" expanded="false" />
+            <element signature="e#10269#12720#0" expanded="false" />
+            <element signature="e#13202#13348#0" expanded="false" />
+            <element signature="n#!!block;n#createContentPage#0" expanded="false" />
+            <element signature="e#15131#16414#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/shopping.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="228" column="38" lean-forward="false" selection-start-line="228" selection-start-column="38" selection-end-line="228" selection-end-column="38" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/wyy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="65" column="46" lean-forward="false" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/musicList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/css/my-app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7546">
+          <caret line="343" column="36" lean-forward="false" selection-start-line="343" selection-start-column="36" selection-end-line="343" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1694">
+          <caret line="77" column="38" lean-forward="false" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="470" column="40" lean-forward="false" selection-start-line="470" selection-start-column="31" selection-end-line="470" selection-end-column="40" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网易云/js/framework7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="4680" column="93" lean-forward="false" selection-start-line="4680" selection-start-column="93" selection-end-line="4680" selection-end-column="93" />
+          <folding>
+            <element signature="e#2363#10223#0" expanded="false" />
+            <element signature="e#10505#18191#0" expanded="false" />
+            <element signature="e#18641#27175#0" expanded="false" />
+            <element signature="e#27207#28154#0" expanded="false" />
+            <element signature="e#28171#28330#0" expanded="false" />
+            <element signature="e#28347#28507#0" expanded="false" />
+            <element signature="e#28527#28690#0" expanded="false" />
+            <element signature="e#28705#32339#0" expanded="false" />
+            <element signature="e#32356#57426#0" expanded="false" />
+            <element signature="e#57733#58214#0" expanded="false" />
+            <element signature="e#58267#58302#0" expanded="false" />
+            <element signature="e#58350#63596#0" expanded="false" />
+            <element signature="e#63614#63768#0" expanded="false" />
+            <element signature="e#63786#64325#0" expanded="false" />
+            <element signature="e#64403#80205#0" expanded="false" />
+            <element signature="e#86302#86505#0" expanded="false" />
+            <element signature="e#86818#86986#0" expanded="false" />
+            <element signature="e#87059#87279#0" expanded="false" />
+            <element signature="e#87531#119805#0" expanded="false" />
+            <element signature="e#119866#119924#0" expanded="false" />
+            <element signature="e#119981#121657#0" expanded="false" />
+            <element signature="e#121995#123723#0" expanded="false" />
+            <element signature="e#123864#124617#0" expanded="false" />
+            <element signature="e#124693#124820#0" expanded="false" />
+            <element signature="e#124898#124947#0" expanded="false" />
+            <element signature="e#125013#126540#0" expanded="false" />
+            <element signature="e#126626#131707#0" expanded="false" />
+            <element signature="e#131818#132017#0" expanded="false" />
+            <element signature="e#132081#132618#0" expanded="false" />
+            <element signature="e#132684#132885#0" expanded="false" />
+            <element signature="e#132951#133530#0" expanded="false" />
+            <element signature="e#133773#147522#0" expanded="false" />
+            <element signature="e#147577#147641#0" expanded="false" />
+            <element signature="e#147692#148405#0" expanded="false" />
+            <element signature="e#148650#153209#0" expanded="false" />
+            <element signature="e#153265#153330#0" expanded="false" />
+            <element signature="e#153390#154095#0" expanded="false" />
+            <element signature="e#154371#154602#0" expanded="false" />
+            <element signature="e#154715#156900#0" expanded="false" />
+            <element signature="e#157222#158813#0" expanded="false" />
+            <element signature="e#158921#159226#0" expanded="false" />
+            <element signature="e#159427#159552#0" expanded="false" />
+            <element signature="e#159641#160160#0" expanded="false" />
+            <element signature="e#160259#163543#0" expanded="false" />
+            <element signature="e#163619#164724#0" expanded="false" />
+            <element signature="e#164791#166363#0" expanded="false" />
+            <element signature="e#166430#170605#0" expanded="false" />
+            <element signature="e#170710#172868#0" expanded="false" />
+            <element signature="e#172920#173383#0" expanded="false" />
+            <element signature="e#173445#174030#0" expanded="false" />
+            <element signature="e#176270#176949#0" expanded="false" />
+            <element signature="e#177095#177776#0" expanded="false" />
+            <element signature="e#177165#177760#0" expanded="false" />
+            <element signature="e#177920#181281#0" expanded="false" />
+            <element signature="e#182771#186788#0" expanded="false" />
+            <element signature="e#187939#188151#0" expanded="false" />
+            <element signature="e#205291#207675#0" expanded="false" />
+            <element signature="e#207738#224820#0" expanded="false" />
+            <element signature="e#224873#228910#0" expanded="false" />
+            <element signature="e#228986#234702#0" expanded="false" />
+            <element signature="e#235032#235142#0" expanded="false" />
+            <element signature="e#235182#237526#0" expanded="false" />
+            <element signature="e#237583#237994#0" expanded="false" />
+            <element signature="e#238069#238646#0" expanded="false" />
+            <element signature="e#238720#239761#0" expanded="false" />
+            <element signature="e#239839#241313#0" expanded="false" />
+            <element signature="e#241394#242555#0" expanded="false" />
+            <element signature="e#242602#242892#0" expanded="false" />
+            <element signature="e#242934#242993#0" expanded="false" />
+            <element signature="e#243035#243357#0" expanded="false" />
+            <element signature="e#243399#243494#0" expanded="false" />
+            <element signature="e#243578#248766#0" expanded="false" />
+            <element signature="e#248856#259042#0" expanded="false" />
+            <element signature="e#259106#260117#0" expanded="false" />
+            <element signature="e#260187#261243#0" expanded="false" />
+            <element signature="e#261298#261805#0" expanded="false" />
+            <element signature="e#261858#266438#0" expanded="false" />
+            <element signature="e#266492#271058#0" expanded="false" />
+            <element signature="e#271368#272264#0" expanded="false" />
+            <element signature="e#272334#273826#0" expanded="false" />
+            <element signature="e#273879#274570#0" expanded="false" />
+            <element signature="e#274631#274976#0" expanded="false" />
+            <element signature="e#275248#277549#0" expanded="false" />
+            <element signature="e#277596#279306#0" expanded="false" />
+            <element signature="e#279543#282586#0" expanded="false" />
+            <element signature="e#282811#297618#0" expanded="false" />
+            <element signature="e#305353#315051#0" expanded="false" />
+            <element signature="e#315105#315169#0" expanded="false" />
+            <element signature="e#315227#315891#0" expanded="false" />
+            <element signature="e#316281#331669#0" expanded="false" />
+            <element signature="e#331727#333851#0" expanded="false" />
+            <element signature="e#333905#335756#0" expanded="false" />
+            <element signature="e#335811#337113#0" expanded="false" />
+            <element signature="e#337410#337914#0" expanded="false" />
+            <element signature="e#337972#338290#0" expanded="false" />
+            <element signature="e#338349#338672#0" expanded="false" />
+            <element signature="e#338713#344186#0" expanded="false" />
+            <element signature="e#344485#347120#0" expanded="false" />
+            <element signature="e#347190#347821#0" expanded="false" />
+            <element signature="e#347886#371647#0" expanded="false" />
+            <element signature="e#371945#392541#0" expanded="false" />
+            <element signature="e#392629#392695#0" expanded="false" />
+            <element signature="e#392763#393141#0" expanded="false" />
+            <element signature="e#393394#402394#0" expanded="false" />
+            <element signature="e#402458#402875#0" expanded="false" />
+            <element signature="e#402933#403362#0" expanded="false" />
+            <element signature="e#403433#403831#0" expanded="false" />
+            <element signature="e#404119#405473#0" expanded="false" />
+            <element signature="e#405536#405614#0" expanded="false" />
+            <element signature="e#405678#405757#0" expanded="false" />
+            <element signature="e#405830#406316#0" expanded="false" />
+            <element signature="e#406598#411928#0" expanded="false" />
+            <element signature="e#411991#412354#0" expanded="false" />
+            <element signature="e#412621#413631#0" expanded="false" />
+            <element signature="e#413695#414512#0" expanded="false" />
+            <element signature="e#414565#414631#0" expanded="false" />
+            <element signature="e#414931#419455#0" expanded="false" />
+            <element signature="e#419732#419940#0" expanded="false" />
+            <element signature="e#419986#421153#0" expanded="false" />
+            <element signature="e#421200#422308#0" expanded="false" />
+            <element signature="e#422668#445150#0" expanded="false" />
+            <element signature="e#445465#461753#0" expanded="false" />
+            <element signature="e#462072#462292#0" expanded="false" />
+            <element signature="e#462364#462589#0" expanded="false" />
+            <element signature="e#462634#462692#0" expanded="false" />
+            <element signature="e#462738#462958#0" expanded="false" />
+            <element signature="e#462993#463241#0" expanded="false" />
+            <element signature="e#463287#463509#0" expanded="false" />
+            <element signature="e#463548#463704#0" expanded="false" />
+            <element signature="e#464045#464279#0" expanded="false" />
+            <element signature="e#464328#464764#0" expanded="false" />
+            <element signature="e#464420#464525#0" expanded="false" />
+            <element signature="e#464635#464754#0" expanded="false" />
+            <element signature="e#464810#465117#0" expanded="false" />
+            <element signature="e#465160#467251#0" expanded="false" />
+            <element signature="e#467347#469704#0" expanded="false" />
+            <element signature="e#469816#471127#0" expanded="false" />
+            <element signature="e#471502#472715#0" expanded="false" />
+            <element signature="e#473023#473557#0" expanded="false" />
+            <element signature="e#473611#474233#0" expanded="false" />
+            <element signature="e#474299#474904#0" expanded="false" />
+            <element signature="e#474971#475200#0" expanded="false" />
+            <element signature="e#475454#476473#0" expanded="false" />
+            <element signature="e#476715#478891#0" expanded="false" />
+            <element signature="e#479175#480106#0" expanded="false" />
+            <element signature="e#480157#483933#0" expanded="false" />
+            <element signature="e#484224#485908#0" expanded="false" />
+            <element signature="e#485966#486383#0" expanded="false" />
+            <element signature="e#486622#507513#0" expanded="false" />
+            <element signature="e#507913#539717#0" expanded="false" />
+            <element signature="e#521037#522682#0" expanded="false" />
+            <element signature="e#522766#523706#0" expanded="false" />
+            <element signature="e#523809#524021#0" expanded="false" />
+            <element signature="e#524076#525592#0" expanded="false" />
+            <element signature="e#525641#533487#0" expanded="false" />
+            <element signature="e#533575#533879#0" expanded="false" />
+            <element signature="e#533932#534242#0" expanded="false" />
+            <element signature="e#534317#534493#0" expanded="false" />
+            <element signature="e#534581#537797#0" expanded="false" />
+            <element signature="e#537834#538546#0" expanded="false" />
+            <element signature="e#538629#539382#0" expanded="false" />
+            <element signature="e#539462#539509#0" expanded="false" />
+            <element signature="e#539764#539820#0" expanded="false" />
+            <element signature="e#540046#568535#0" expanded="false" />
+            <element signature="e#568856#618786#0" expanded="false" />
+            <element signature="e#619161#625487#0" expanded="false" />
+            <element signature="e#625544#626617#0" expanded="false" />
+            <element signature="e#626894#630284#0" expanded="false" />
+            <element signature="e#630344#630715#0" expanded="false" />
+            <element signature="e#630900#631678#0" expanded="false" />
+            <element signature="e#631905#632121#0" expanded="false" />
+            <element signature="e#632188#632472#0" expanded="false" />
+            <element signature="e#632551#632929#0" expanded="false" />
+            <element signature="e#633024#633411#0" expanded="false" />
+            <element signature="e#633640#635978#0" expanded="false" />
+            <element signature="e#636291#636992#0" expanded="false" />
+            <element signature="e#637142#641105#0" expanded="false" />
+            <element signature="e#641379#818259#0" expanded="false" />
+            <element signature="e#818423#822501#0" expanded="false" />
+            <marker date="1508811431818" expanded="true" signature="306240:306272" ph="..." />
+            <marker date="1508811431818" expanded="true" signature="369917:369924" ph="..." />
+            <marker date="1508811431818" expanded="true" signature="429911:430063" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
